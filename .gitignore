@@ -1,3 +1,7 @@
+# For production only
+index.html
+package-lock.json
+
 # Logs
 logs
 *.log
