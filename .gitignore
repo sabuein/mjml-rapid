@@ -1,5 +1,6 @@
 # For production only
-index.html
+*.html
+*.zip
 package-lock.json
 
 # Logs
