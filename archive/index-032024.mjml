@@ -1,0 +1,98 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Case studies - Rapid Information Systems</mj-title>
+        <mj-preview>Our consultancy service is simple, fast and delivery-focused. To get a feel for the kind of consultancy projects we undertake, please browse some of our case studies below.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path="*.flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            *.flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <!--
+        <mj-include path="./header.mjml" />
+        <mj-include path="./inline-styles.css" type="css" css-inline="inline" />
+        <mj-include path="./partial.html" type="html" />
+        -->
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">Case studies</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date">
+                Hi
+                    <mj-raw><script type="application/javascript">
+                        const x = new Date();
+                        document.querySelector("td.update-date div:first-child").innerText = `${x.toLocaleString("default", { weekday: "long" })}, ${x.getDate()} ${x.toLocaleString("default", { month: "long" })} ${x.getFullYear()}`;</script></mj-raw>
+                </mj-text>
+            </mj-column>
+        </mj-section>  
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">We wanted to keep you up to date with some of our recent works and case studies. Rapid is a trusted supplier to many local authorities and housing associations working with specialised teams. Our unique solutions makes best use of your enterprise systems, allowing your organisation to do more with less. With Rapid, your software solutions are designed to scale organically, empowering you to reach new heights without limitations.</mj-text>
+                <mj-text mj-class="paddit">Do let us know if you want more information or a demonstration of our solutions.</mj-text>
+                <mj-text mj-class="paddit">All the best,</mj-text>
+                <mj-text mj-class="paddit">The Rapid Team.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-divider border-width="1px" border-style="dashed" border-color="#220a99" align="center"></mj-divider>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column padding-bottom="50px">
+                <mj-image src="assets/images/thames_at_night_1200px.jpg" alt="Evening by the Thames, Lambeth, London, UK" title="Innovating fire safety&colon; A digital transformation journey with Lambeth Council" />
+                <mj-text mj-class="heading">Innovating fire safety&colon; A digital transformation journey with Lambeth Council</mj-text>
+                <mj-text mj-class="subheading">Challenge</mj-text>
+                <mj-text mj-class="paddit">Fire safety is a critical issue for local authorities, who have a legal obligation to conduct fire risk assessments on all social housing properties. These assessments require collecting and analysing a large amount of data on the building characteristics, fire hazards, fire protection measures, and fire emergency plans. The assessments also generate a list of remedial actions that need to be assigned and completed by third-party contractors to ensure the safety of the residents.</mj-text>
+                <mj-text mj-class="paddit">However, the process of conducting and managing fire risk assessments is often inefficient and error-prone. Local authorities typically use paper-based or spreadsheet-based templates, such as the British Standard PAS 79 document, to record and store the assessment data. These templates are not standardised, integrated, or user-friendly, and they create challenges for data quality, security, and accessibility. Moreover, local authorities have limited visibility and control over the remedial actions, as they rely on manual communication and coordination with multiple contractors. This can result in delays, inconsistencies, and liabilities for local authorities&hellip;</mj-text>
+                <!-- <mj-text mj-class="paddit">Lambeth Council, one of the largest local authorities in London, recognised the need for a digital solution to improve the fire safety assessment process. The council commissioned Rapid, a leading provider of digital transformation solutions for the public sector, to review the process and develop a customised product that would meet the council’s needs and objectives&hellip;</mj-text> -->
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/case-studies/innovating-fire-safety-a-digital-transformation-journey-with-lambeth-council/" title="Continue reading">Continue reading</mj-button>
+            </mj-column>
+            <mj-column padding-bottom="50px">
+                <mj-image src="assets/images/big_ben_1200px.jpg" alt="Big Ben, Westminster, London, UK" title="How Rapid helped Westminster City Council manage their residential properties more efficiently" />
+                <mj-text mj-class="heading">How Rapid helped Westminster City Council manage their residential properties more efficiently</mj-text>
+                <mj-text mj-class="subheading">Challenge</mj-text>
+                <mj-text mj-class="paddit">Westminster City Council owns and manages over 30,000 residential properties across London. These properties must meet minimum standards to ensure the health, safety, and well-being of the tenants. Westminster City Council also must keep the residents informed of any work taking place and allow them to track the progress of outstanding issues.</mj-text>
+                <mj-text mj-class="paddit">To conduct the remedial work, Westminster City Council relies on third-party contractors or in-house teams, depending on the nature and urgency of the task. However, managing the communication and workflow between these parties was a challenge for Westminster City Council, as they had to use multiple systems and manual processes that were prone to errors and delays.</mj-text>
+                <mj-text mj-class="paddit">Westminster City Council realised that they needed a digital solution to streamline their operations and improve their service delivery. They approached us at Rapid to help them design and implement a customised solution that would integrate with their existing systems and automate their workflows&hellip;</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/case-studies/how-rapid-helped-westminster-city-council-manage-their-residential-properties-more-efficiently/" title="Continue reading">Continue reading</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid ‐ unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success ‐ explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact us">Contact us</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                    <mj-social-element name="youtube-noshare" href="https://www.youtube.com/@Rapid-isUk" title="YouTube">YouTube</mj-social-element>
+                    <mj-social-element name="github-noshare" href="https://github.com/RapidInfoSys" title="GitHub">GitHub</mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
