@@ -4,6 +4,6 @@
   },
   "scripts": {
     "watch": "mjml --watch index.mjml -o index.html",
-    "zipw": "zip -r /mnt/c/Users/Sala/Desktop/email.zip * -x LICENSE node_modules/\\* -x *.html *.zip *.json *.md *.gitignore"
+    "zipw": "zip -r /mnt/c/Users/Sala/Desktop/email.zip * -x LICENSE private_archives/\\* node_modules/\\* *.html *.zip *.json *.md *.gitignore"
   }
 }
