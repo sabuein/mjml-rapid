@@ -1,7 +1,7 @@
 <mjml lang="en" dir="ltr">
     <mj-head>
-        <mj-title>Rapid Information Systems: A Double Nominee in June’s Awards Season</mj-title>
-        <mj-preview>Welcome to our latest newsletter from Rapid! Dive into this edition to discover the latest updates, insightful articles, and innovative features shaping the future of software solutions. Stay connected with us as we continue to redefine possibilities in the digital landscape for the public sector.</mj-preview>
+        <mj-title>Rapid Information Systems: A special engagement session with Rapid users.</mj-title>
+        <mj-preview>We are excited to invite you to a special engagement session with Rapid users and the team for an insightful discussion on the challenges and solutions that Local Authorities face.</mj-preview>
         <mj-breakpoint width="600px" />
         <mj-attributes>
             <mj-text padding="0" />
@@ -26,53 +26,38 @@
         <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
             <mj-column vertical-align="middle">
                 <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
-                <mj-text mj-class="heading">#3</mj-text>
+                <mj-text mj-class="heading">#6</mj-text>
             </mj-column>
             <mj-column vertical-align="middle">
                 <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
                 <mj-text mj-class="date" css-class="update-date"></mj-text>
             </mj-column>
-        </mj-section>  
+        </mj-section>
         <mj-section>
             <mj-column vertical-align="middle">
                 <mj-text mj-class="paddit">Hello {firstName},</mj-text>
-                <mj-text mj-class="paddit">We are thrilled to announce that Rapid Information Systems has been nominated for two prestigious awards this June: The Decentralised Energy Awards 2024 and the Unlock Net Zero Awards 2024. These nominations recognise our innovative work in partnership with Camden Council on their Billing Solution.</mj-text>
-                <mj-text mj-class="heading">The Billing Solution – A Camden Council Collaboration</mj-text>
-                <mj-text mj-class="paddit">In a joint venture with <a href="https://www.camden.gov.uk/" target="_blank" title="Camden Council">Camden Council</a>, we developed and implemented a bespoke in-house solution for heat charges billing. This innovation has significantly enhanced the efficiency and functionality of the billing process, resulting in lower heat charges for residents. The solution’s integration with other IT systems at Camden Council has yielded technological, financial, staff, environmental, and social benefits for both staff and residents.</mj-text>
-            </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-column vertical-align="middle">
-                <mj-divider border-width="1px" border-style="dashed" border-color="#220a99" align="center"></mj-divider>
-            </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-column padding-bottom="50px">
-                <mj-raw>
-                    <script>
-                        const x = new Date();
-                        const today = x.toLocaleString("default", { weekday: "long" }) + x.getDate() + x.toLocaleString("default", { month: "long" }) + x.getFullYear();
-                        const item = document.querySelector("td.update-date");
-                        item.innerText = today;
-                    </script>
-                </mj-raw>
-                <!-- mj-image src="assets/images/cash-macanaya-X9Cemmq4YjM-unsplash.jpg" alt="Photo by Cash Macanaya on Unsplash" title="Can the Public Sector use AI to enhance document verification processes?" / -->
-                <mj-text mj-class="heading">The Decentralised Energy Awards 2024</mj-text>
-                <mj-text mj-class="paddit">These awards celebrate innovative decentralised energy solutions designed around user needs. They highlight innovation, best practice, and notable achievements across heat, energy efficiency, industrial energy, power, and flexibility. This year, two new awards have been introduced: the Supply Chain and Skills Development Award and the Leadership in Diversity Award.</mj-text>
-            </mj-column>
-            <mj-column padding-bottom="50px">
-                <mj-text mj-class="heading">Unlock Net Zero Awards 2024</mj-text>
-                <mj-text mj-class="paddit">These awards champion progress towards decarbonisation in the UK housing, built environment, and property sectors, along with the professional services and supply chains that support them. At Unlock Net Zero, we are privileged to hear about positive work in this field daily, and these awards provide a platform to profile and amplify this work to a wider audience.</mj-text>
-                <mj-text mj-class="paddit">We are very proud to be shortlisted with such great finalists for both Awards and are excited to meet public and private sector organisations contributing in a positive way to the environment.</mj-text>
-            </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-column vertical-align="middle">
-                <mj-text mj-class="heading">Newsletter Update: Navigating the New Energy Act Together</mj-text>
-                <mj-text mj-class="paddit">We had an enriching experience at the end of May, joining forces with colleagues from across London at the Westminster City Hall. The focal point of our discussion was the Energy Act, which was enacted late last year, signalling the onset of new regulations for heat network operators.</mj-text>
-                <mj-text mj-class="paddit">In the coming year, even operators of smaller heat networks will be required to adhere to regulations concerning customer service, metering and billing, resilience and outages, and overall technical standards. We understand that these changes may pose challenges for Local Authorities already under significant pressures.</mj-text>
-                <mj-text mj-class="paddit">We extend our appreciation to the City of Westminster for hosting this event and successfully bringing together multiple Local Authorities and private sector organisations to address these regulatory changes.</mj-text>
-                <mj-text mj-class="paddit">At Rapid, we are proud to have supported the London Borough of Camden in navigating these changes and we have collaborated with them to develop the digital Billing Solution tailored to these new requirements. We are eager to share our insights and discuss this solution with anyone embarking on the journey of Heat Networks. Your stage in the journey does not matter; we are here to help.</mj-text>
+                <mj-text mj-class="heading">We are excited to invite you to a special engagement session with Rapid users and the team for an insightful discussion on the challenges and solutions that Local Authorities face.</mj-text>
+                <mj-text mj-class="paddit">
+                    <h3>Event details:</h3>
+                    <ul>
+                        <li><strong>Date:</strong> Thu, Feb 27, 2025</li>
+                        <li><strong>Time:</strong> 11:00 AM - 12:00 PM</li>
+                        <li><strong>Tickets:</strong> Free via <a href="https://www.eventbrite.co.uk/e/smarter-data-for-public-services-tickets-1216483096689?aff=ebdsoporgprofile" target="_blank" title="Secure your ticket via Eventbrite">Eventbrite</a></li>
+                    </ul>
+                    <h3>What to expect:</h3>
+                    <ul>
+                        <li>Key challenges in data collection and reporting</li>
+                        <li>Practical solutions being used in the sector</li>
+                        <li>Open discussions on real-world issues and experiences</li>
+                        <li>A chance to exchange best practices with peers</li>
+                    </ul>
+                </mj-text>
+                <mj-text mj-class="paddit">Join us to share insights, discuss best practices, and explore practical approaches to streamline processes, improve decision-making, and ensure compliance.</mj-text>
+                <mj-text mj-class="paddit">Don't miss out on this opportunity to connect with industry peers and enhance your knowledge. Secure your free ticket today!</mj-text>
+                <mj-text mj-class="paddit"><a href="https://www.eventbrite.co.uk/e/smarter-data-for-public-services-tickets-1216483096689?aff=ebdsoporgprofile" target="_blank" title="Secure your ticket via Eventbrite">Smarter Data for Public Services Tickets, Thu, Feb 27, 2025 at 11:00 AM</a></mj-text>
+                <mj-text mj-class="paddit">We look forward to seeing you there!</mj-text>
+                <mj-text mj-class="paddit">Best wishes,</mj-text>
+                <mj-text mj-class="paddit">The Rapid Team</mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="#dfd9fd" padding="25px 10px">

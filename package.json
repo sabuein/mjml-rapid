@@ -4,6 +4,7 @@
   },
   "scripts": {
     "watch": "mjml --watch index.mjml -o index.html",
-    "zipw": "zip -r /mnt/c/Users/Sala/Desktop/email.zip * -x LICENSE private_archives/\\* node_modules/\\* *.html *.zip *.json *.md *.gitignore"
+    "zipw": "zip -r /mnt/c/Users/Sala/Desktop/email.zip * -x LICENSE private_archives/\\* node_modules/\\* *.html *.zip *.json *.md *.gitignore",
+    "powershell": "powershell Compress-Archive -update C:\\Users\\sala\\git\\mjml-rapid C:\\Users\\sala\\Desktop\\email.zip"
   }
 }
