@@ -2,7 +2,6 @@
 *.html
 *.zip
 package-lock.json
-archive/
 
 # Logs
 logs
