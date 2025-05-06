@@ -1,0 +1,95 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Rapid Information Systems: A Double Nominee in June’s Awards Season</mj-title>
+        <mj-preview>Welcome to our latest newsletter from Rapid! Dive into this edition to discover the latest updates, insightful articles, and innovative features shaping the future of software solutions. Stay connected with us as we continue to redefine possibilities in the digital landscape for the public sector.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path="*.flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            *.flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">#3</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>  
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">We are thrilled to announce that Rapid Information Systems has been nominated for two prestigious awards this June: The Decentralised Energy Awards 2024 and the Unlock Net Zero Awards 2024. These nominations recognise our innovative work in partnership with Camden Council on their Billing Solution.</mj-text>
+                <mj-text mj-class="heading">The Billing Solution – A Camden Council Collaboration</mj-text>
+                <mj-text mj-class="paddit">In a joint venture with <a href="https://www.camden.gov.uk/" target="_blank" title="Camden Council">Camden Council</a>, we developed and implemented a bespoke in-house solution for heat charges billing. This innovation has significantly enhanced the efficiency and functionality of the billing process, resulting in lower heat charges for residents. The solution’s integration with other IT systems at Camden Council has yielded technological, financial, staff, environmental, and social benefits for both staff and residents.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-divider border-width="1px" border-style="dashed" border-color="#220a99" align="center"></mj-divider>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column padding-bottom="50px">
+                <mj-raw>
+                    <script>
+                        const x = new Date();
+                        const today = x.toLocaleString("default", { weekday: "long" }) + x.getDate() + x.toLocaleString("default", { month: "long" }) + x.getFullYear();
+                        const item = document.querySelector("td.update-date");
+                        item.innerText = today;
+                    </script>
+                </mj-raw>
+                <!-- mj-image src="assets/images/cash-macanaya-X9Cemmq4YjM-unsplash.jpg" alt="Photo by Cash Macanaya on Unsplash" title="Can the Public Sector use AI to enhance document verification processes?" / -->
+                <mj-text mj-class="heading">The Decentralised Energy Awards 2024</mj-text>
+                <mj-text mj-class="paddit">These awards celebrate innovative decentralised energy solutions designed around user needs. They highlight innovation, best practice, and notable achievements across heat, energy efficiency, industrial energy, power, and flexibility. This year, two new awards have been introduced: the Supply Chain and Skills Development Award and the Leadership in Diversity Award.</mj-text>
+            </mj-column>
+            <mj-column padding-bottom="50px">
+                <mj-text mj-class="heading">Unlock Net Zero Awards 2024</mj-text>
+                <mj-text mj-class="paddit">These awards champion progress towards decarbonisation in the UK housing, built environment, and property sectors, along with the professional services and supply chains that support them. At Unlock Net Zero, we are privileged to hear about positive work in this field daily, and these awards provide a platform to profile and amplify this work to a wider audience.</mj-text>
+                <mj-text mj-class="paddit">We are very proud to be shortlisted with such great finalists for both Awards and are excited to meet public and private sector organisations contributing in a positive way to the environment.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Newsletter Update: Navigating the New Energy Act Together</mj-text>
+                <mj-text mj-class="paddit">We had an enriching experience at the end of May, joining forces with colleagues from across London at the Westminster City Hall. The focal point of our discussion was the Energy Act, which was enacted late last year, signalling the onset of new regulations for heat network operators.</mj-text>
+                <mj-text mj-class="paddit">In the coming year, even operators of smaller heat networks will be required to adhere to regulations concerning customer service, metering and billing, resilience and outages, and overall technical standards. We understand that these changes may pose challenges for Local Authorities already under significant pressures.</mj-text>
+                <mj-text mj-class="paddit">We extend our appreciation to the City of Westminster for hosting this event and successfully bringing together multiple Local Authorities and private sector organisations to address these regulatory changes.</mj-text>
+                <mj-text mj-class="paddit">At Rapid, we are proud to have supported the London Borough of Camden in navigating these changes and we have collaborated with them to develop the digital Billing Solution tailored to these new requirements. We are eager to share our insights and discuss this solution with anyone embarking on the journey of Heat Networks. Your stage in the journey does not matter; we are here to help.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid ‐ unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success ‐ explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

@@ -1,0 +1,73 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Rapid Information Systems: Seasons Greetings and a Happy New Year from Rapid.</mj-title>
+        <mj-preview>Welcome to our latest newsletter from Rapid! Dive into this edition to discover the latest updates, insightful articles, and innovative features shaping the future of software solutions. Stay connected with us as we continue to redefine possibilities in the digital landscape for the public sector.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path="*.flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            *.flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">#5</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="heading">Seasons Greetings and a Happy New Year from Rapid</mj-text>
+                <mj-text mj-class="paddit">As we approach the end of 2024, we at Rapid Information Systems are excited to share our journey and achievements with you. This year has been transformative, and we are grateful for the opportunity to support local authorities with our innovative tech solutions.</mj-text>
+                <mj-text mj-class="paddit">
+                    <ul>
+                        <li>Early in the year, we proudly achieved <a href="https://www.iso.org/standard/27001" title="ISO/IEC 27001:2022" target="_blank">ISO 27001</a> accreditation, a testament to our commitment to risk management, cyber resilience, and operational excellence. This milestone underscores our dedication to providing secure and reliable services to the public sector.</li>
+                        <li>Our collaboration with <a href="https://www.treow.org.uk/" title="Treow" target="_blank">Treow</a> has been a highlight, as we work together to create cutting-edge digital solutions for the Supported Accommodation Market. Leveraging the expertise of industry leaders like Jonny Woodthorpe and Simon Bower has been invaluable in driving this project forward.</li>
+                        <li>We also made significant strides in enhancing our project management methodologies. By introducing new systems and tools, our team has become more collaborative and efficient, ensuring that we deliver the best possible outcomes for our clients.</li>
+                        <li>Our website received a major overhaul, becoming faster and more user-friendly. This redesign was aimed at improving your experience when exploring our solutions and case studies. We also started sharing regular newsletters and updates on LinkedIn to keep you informed about our latest developments.</li>
+                        <li>Throughout the year, we renewed several key services, including those with the <a href="https://commissioningalliance.co.uk/" target="_blank" title="Commissioning Alliance">Commissioning Alliance</a>, <a href="https://www.camden.gov.uk/" target="_blank" title="Camden Council">Camden</a> and <a href="https://www.lambeth.gov.uk/" target="_blank" title="Lambeth Council">Lambeth</a>, to name a few key partners. These renewals reflect our ongoing commitment to supporting local authorities with tailored tech solutions that meet their unique needs.</li>
+                        <li>In addition to these achievements, we were honored to be finalists in two national awards for our <a href="https://rapid-is.co.uk/camden-billing-system/" title="Billing system" target="_blank">Camden Billing System</a>, highlighting our innovative approach and dedication to excellence. We also secured a place on the <a href="https://www.crowncommercial.gov.uk/news/g-cloud-14-agreement-live-ccs" target="_blank" title="G-Cloud 14 agreement goes live">G-Cloud 14 framework</a>, expanding our reach and ability to serve the public sector.</li>
+                    </ul>Throughout the year, we renewed several key services, including those with the Commissioning Alliance, Camden & Lambeth, to name a few key partners
+                </mj-text>
+                <mj-text mj-class="paddit">As we look ahead to 2025, we are excited about the opportunities to further innovate and support local authorities with cutting-edge technology solutions. Thank you for your continued partnership and interest in our journey.</mj-text>
+                <mj-text mj-class="paddit">Follow Rapid Information Systems on <a href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</a> for the latest updates and insights into our work within the public sector.</mj-text>
+                <mj-text mj-class="paddit">Warmest wishes for a joyful holiday season and a prosperous new year!</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid ‐ unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success ‐ explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
