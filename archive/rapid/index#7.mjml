@@ -1,0 +1,74 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Rapid Information Systems: We have officially acquired Swifton Solutions</mj-title>
+        <mj-preview>We're thrilled to share some exciting news with you — we have officially acquired Swifton Solutions, a move that significantly expands our capabilities and deepens our commitment to delivering cutting-edge technology solutions.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">#7</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="heading">We're thrilled to share some exciting news with you — we have officially acquired Swifton Solutions, a move that significantly expands our capabilities and deepens our commitment to delivering cutting-edge technology solutions.</mj-text>
+                <mj-image align="center" width="600" src="assets/images/rapid-swiftonX.png" alt="We have officially acquired Swifton Solutions" title="We have officially acquired Swifton Solutions" />
+                <mj-text mj-class="paddit"><a href="https://swifton.co.uk/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">Swifton Solutions</a> brings a strong track record of expertise in .NET and Azure environments, aligning perfectly with our core focus areas: digital transformation, data integration, and artificial intelligence. With their deep experience across the Microsoft technology stack, this acquisition strengthens our ability to design and deliver scalable, secure, and high-performance solutions tailored to the needs of Local Authorities.</mj-text>
+                <mj-text mj-class="paddit">Importantly, both our teams share a strong commitment to using non-proprietary, open architecture technologies wherever possible. This allows us to develop leaner, more maintainable applications that reduce overheads, avoid vendor lock-in, and ultimately deliver better long-term value for the public sector.</mj-text>
+                <mj-text mj-class="paddit"><a href="https://swifton.co.uk/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">Swifton</a> will continue to operate with its own dedicated team of developers, focusing on private sector clients while bringing fresh technical capabilities into our broader offering.</mj-text>
+                <mj-text mj-class="paddit">Their <a href="https://swifton.co.uk/solutions/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">core solutions</a> include:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li>Custom CRM Systems</li>
+                    <li>ERP Integration</li>
+                    <li>Health & Safety Assessment Platforms</li>
+                    <li>Bespoke Software Development</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">We see this as a powerful step forward — giving us the flexibility to support more complex and cost-conscious public sector projects, without compromising on innovation or quality.</mj-text>
+                <mj-text mj-class="paddit">If you'd like to learn more or explore how these enhanced capabilities can benefit your organisation, we invite you to <a href="https://swifton.co.uk/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">visit Swifton's website</a> or <a href="https://rapid-is.co.uk/contact/" target="_blank" title="Get in touch with Rapid">get in touch</a> to set up a conversation.</mj-text>
+                <mj-text mj-class="paddit">Thank you for your continued trust and partnership.</mj-text>
+                <mj-text mj-class="paddit">The Rapid team.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid — unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success — explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
