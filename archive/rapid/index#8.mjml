@@ -1,0 +1,91 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Rapid Information Systems: Housing Reform Update and Rapid Team Summer Event</mj-title>
+        <mj-preview>Autumn is here, and with it comes a chance to reset after the summer and look ahead to the months to come.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">#8</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">Welcome to the latest edition of the Rapid Newsletter. Autumn is here, and with it comes a chance to reset after the summer and look ahead to the months to come.</mj-text>
+                <mj-text mj-class="heading">Housing Reform Update: Strengthening Standards in the Private Rented Sector</mj-text>
+                <mj-text mj-class="paddit">The <strong><a href="https://bills.parliament.uk/bills/3764" title="Renters' Rights Bill" target="_blank">Renters' Rights Bill</a></strong> 2025 is set to introduce landmark reforms to housing quality in England's private rented sector. For the first time, the <strong><a href="https://www.gov.uk/guidance/decent-homes-standard-review" title="Decent Homes Standard: review" target="_blank">Decent Homes Standard</a></strong>, previously applied only to social housing, will be extended to private rentals. This will require all rented properties to meet minimum criteria, including:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li>Being free from serious health and safety hazards, such as damp, mould, and electrical faults.</li>
+                    <li>Having adequate heating and insulation, ensuring energy efficiency and warmth.</li>
+                    <li>Maintaining a reasonable state of repair, including functional kitchens, bathrooms, and structural integrity.</li>
+                    <li>Providing basic modern facilities suitable for contemporary living.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">In addition, the bill incorporates <strong><a href="https://www.gov.uk/government/publications/awaabs-law-draft-guidance-for-social-landlords/awaabs-law-draft-guidance-for-social-landlords" title="Awaab’s Law: Draft guidance for social landlords" target="_blank">Awaab's Law</a></strong>, which mandates strict legal timeframes for landlords to address hazards:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li><strong>Emergency repairs (e.g., severe mould or unsafe conditions)</strong>: within 24 hours.</li>
+                    <li><strong>Non-emergency mould/damp</strong>: within 7 days.</li>
+                    <li><strong>Other significant risks</strong>: within 14 days.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Local authorities will be given enhanced powers to inspect properties, enforce compliance, and issue penalties where standards are not met.</mj-text>
+                <mj-text mj-class="heading">Legislative Timeline</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li><strong>8th September 2025</strong>: The bill retuned to the House of Commons for final consideration of Lords amendments.</li>
+                    <li><strong>Mid to late September 2025</strong>: Expected Royal Assent, formally enacting the bill.</li>
+                    <li><strong>Spring 2026</strong>: Anticipated commencement date, allowing time for regulatory guidance, system updates, and local authority readiness.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Local authorities should begin preparing for expanded enforcement responsibilities, including inspection protocols, tenant complaint handling, and integration with new data systems such as the proposed <a href="https://www.centreforpublicdata.org/new-report-national-landlord-register-for-england" title="New report: A national landlord register for England - how to make it work" target="_blank">National Landlord Register</a>.</mj-text>
+                <mj-text mj-class="paddit">We are here to support you through this period of change. Our quality assurance platforms are designed to help Local authorities and Housing Associations deliver the best outcomes for residents. If you would like to explore how we can work together, we would be delighted to <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">have a conversation</a> or show you a quick demo of the tools that could make a real difference for your team.</mj-text>
+                <mj-text mj-class="heading">Rapid Team Summer Event</mj-text>
+                <mj-text mj-class="paddit">Over the summer, the Rapid team came together for a fantastic day of collaboration and creative thinking. We were lucky to be joined by <a href="https://www.linkedin.com/in/ainhoamontero/" title="Ainhoa Montero de Espinosa" target="_blank">Ainhoa Montero de Espinosa</a> from <strong><a href="https://collaborationwave.com/" target="_blank" title="Collaboration Wave">Collaboration Wave</a></strong>, who led us through a unique workshop using <strong><a href="https://www.lego.com/en-gb/themes/serious-play" target="_blank" title="LEGO® SERIOUS PLAY®">LEGO® SERIOUS PLAY®</a></strong>.</mj-text>
+                <mj-text mj-class="paddit">Ainhoa encouraged us to take a fresh look at our future business strategy and behaviours. Using Lego as a tool, we explored ideas, challenged assumptions, and built models that represented our goals and values. It was a brilliant way to get everyone thinking differently and working together in a safe and open space.</mj-text>
+                <mj-text mj-class="paddit">There was something really refreshing about going back to basics. Sitting around a table, sharing ideas, and building with Lego reminded us how powerful simple tools can be when used with purpose. It sparked great conversations, helped us align as a team and gave us a chance to reflect on where we are heading.</mj-text>
+                <mj-text mj-class="paddit">And let us be honest, it was also good fun. There is something about Lego that brings out the inner child in all of us. It was playful, but with real purpose behind it. We left the day feeling energised, connected, and clearer about our direction.</mj-text>
+                <mj-text mj-class="paddit">If you are curious about how Serious Play could help your team, we highly recommend booking a call with <a href="https://calendly.com/ainhoamontero/30min" title="30 Min Call with Ainhoa" target="_blank">Ainhoa</a> for 30 minutes and talking about what is on your mind. We have seen the benefits first-hand, both in the short term and for the long haul.</mj-text>
+                <mj-image align="center" width="600" src="assets/images/LegoPlay.png" alt="Rapid Team Summer Event" title="Rapid Team Summer Event" />
+                <mj-text mj-class="paddit">Thank you for your continued trust and partnership.</mj-text>
+                <mj-text mj-class="paddit">The Rapid team.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid — unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success — explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
