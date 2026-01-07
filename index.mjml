@@ -1,12 +1,12 @@
 <mjml lang="en" dir="ltr">
     <mj-head>
-        <mj-title>Swifton Solutions: Taking a moment to reflect</mj-title>
-        <mj-preview>As we move into September, we wanted to take a moment to reflect on the last five months since Rapid Information Systems acquired Swifton Solutions in April.</mj-preview>
+        <mj-title>Rapid Information Systems: Housing Reform Update and Rapid Team Summer Event</mj-title>
+        <mj-preview>Autumn is here, and with it comes a chance to reset after the summer and look ahead to the months to come.</mj-preview>
         <mj-breakpoint width="600px" />
         <mj-attributes>
             <mj-text padding="0" />
-            <mj-class name="heading" padding="10px 25px" color="#0070f3" font-size="24px" font-weight="700" line-height="1.25" />
-            <mj-class name="subheading" padding="10px 25px" color="#0070f3" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
             <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
             <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
             <mj-all font-family="Ubuntu, Arial" />
@@ -23,50 +23,65 @@
     <mj-body width="1080px">
         <mj-include path="assets/styles/screen.css" type="css" />
         <mj-raw><!-- Message body --></mj-raw>
-        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat">
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
             <mj-column vertical-align="middle">
-                <mj-text mj-class="heading">Swifton Solutions Newsletter</mj-text>
-                <mj-text mj-class="heading">#1</mj-text>
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">#8</mj-text>
             </mj-column>
             <mj-column vertical-align="middle">
-                <mj-image align="right" width="200px" src="assets/images/swifton.png" alt="Swifton Solutions Logo" title="Swifton Solutions" />
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
                 <mj-text mj-class="date" css-class="update-date"></mj-text>
             </mj-column>
         </mj-section>
         <mj-section>
             <mj-column vertical-align="middle">
                 <mj-text mj-class="paddit">Hello {firstName},</mj-text>
-                <mj-text mj-class="paddit">As we move into September, we wanted to take a moment to reflect on the last five months since <a href="https://rapid-is.co.uk/" target="_blank" title="Rapid Information Systems - Do more with less.">Rapid Information Systems</a> acquired <a href="https://swifton.co.uk/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">Swifton Solutions</a> in April.</mj-text>
-                <mj-text mj-class="paddit">It has been a real pleasure making contact with so many of you, whether remotely or in person, and beginning to understand the great partnerships and solutions that have been built over the years. Ian's work has laid a strong foundation, and we are committed to preserving and building upon that legacy.</mj-text>
-                <mj-text mj-class="paddit">We are also pleased to share that <strong>Hareer</strong> joined the Swifton team in May, and has been working closely with Ian through a <strong>structured handover process</strong>, supported by detailed documentation and ongoing collaboration. This ensures continuity and a smooth transition as Ian continues to work with us until the end of the year.</mj-text>
-                <mj-text mj-class="paddit">Our goal is to bring stability to the systems and relationships Ian has nurtured, and to ensure his legacy continues to thrive, with Hareer driving it forward alongside the Rapid team and future members of Swifton.</mj-text>
-                <mj-text mj-class="heading">What Does This Mean for You?</mj-text>
-                <mj-text mj-class="paddit">Swifton continues to operate as a separate company, and it is very much business as usual. We are expanding the team to ensure Swifton's solutions are fully supported.</mj-text>
-                <mj-text mj-class="paddit">For Swifton customers who choose to engage Rapid Information Systems for additional support, we are pleased to offer access to our wider capabilities, including:</mj-text>
+                <mj-text mj-class="paddit">Welcome to the latest edition of the Rapid Newsletter. Autumn is here, and with it comes a chance to reset after the summer and look ahead to the months to come.</mj-text>
+                <mj-text mj-class="heading">Housing Reform Update: Strengthening Standards in the Private Rented Sector</mj-text>
+                <mj-text mj-class="paddit">The <strong><a href="https://bills.parliament.uk/bills/3764" title="Renters' Rights Bill" target="_blank">Renters' Rights Bill</a></strong> 2025 is set to introduce landmark reforms to housing quality in England's private rented sector. For the first time, the <strong><a href="https://www.gov.uk/guidance/decent-homes-standard-review" title="Decent Homes Standard: review" target="_blank">Decent Homes Standard</a></strong>, previously applied only to social housing, will be extended to private rentals. This will require all rented properties to meet minimum criteria, including:</mj-text>
                 <mj-text mj-class="paddit"><ul>
-                    <li><strong>Security & Resilience</strong>: ISO 27001 certified and Cyber Essentials compliant.</li>
-                    <li><strong>Application Modernisation</strong>: Expertise in updating legacy .NET Framework solutions with modern, intuitive interfaces.</li>
-                    <li><strong>AI Integration</strong>: Smart automation and workflow enhancements.</li>
-                    <li><strong>Low-Code Development</strong>: Accelerated delivery using modern platforms.</li>
+                    <li>Being free from serious health and safety hazards, such as damp, mould, and electrical faults.</li>
+                    <li>Having adequate heating and insulation, ensuring energy efficiency and warmth.</li>
+                    <li>Maintaining a reasonable state of repair, including functional kitchens, bathrooms, and structural integrity.</li>
+                    <li>Providing basic modern facilities suitable for contemporary living.</li>
                 </ul></mj-text>
-                <mj-text mj-class="paddit">These services are available to help maintain, secure, and enhance your existing applications, and to explore new functionality as your needs evolve.</mj-text>
-                <mj-text mj-class="paddit">We will continue conversations with all of you through the rest of 2025 to help you get the most from your current agreements and explore how we can build on the work Ian has delivered.</mj-text>
-                <mj-text mj-class="paddit">If you would like to talk more, please do not hesitate to reach out to <strong>Kumar</strong> or <strong>Rob</strong>, we would be more than happy to arrange a visit and meet in person.</mj-text>
-                <mj-text mj-class="paddit">Thank you again for your continued trust in Swifton and Rapid. We are excited about what is ahead and look forward to working closely with you.</mj-text>
-                <mj-text mj-class="paddit">The Swifton Solutions team.</mj-text>
+                <mj-text mj-class="paddit">In addition, the bill incorporates <strong><a href="https://www.gov.uk/government/publications/awaabs-law-draft-guidance-for-social-landlords/awaabs-law-draft-guidance-for-social-landlords" title="Awaab’s Law: Draft guidance for social landlords" target="_blank">Awaab's Law</a></strong>, which mandates strict legal timeframes for landlords to address hazards:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li><strong>Emergency repairs (e.g., severe mould or unsafe conditions)</strong>: within 24 hours.</li>
+                    <li><strong>Non-emergency mould/damp</strong>: within 7 days.</li>
+                    <li><strong>Other significant risks</strong>: within 14 days.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Local authorities will be given enhanced powers to inspect properties, enforce compliance, and issue penalties where standards are not met.</mj-text>
+                <mj-text mj-class="heading">Legislative Timeline</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li><strong>8th September 2025</strong>: The bill retuned to the House of Commons for final consideration of Lords amendments.</li>
+                    <li><strong>Mid to late September 2025</strong>: Expected Royal Assent, formally enacting the bill.</li>
+                    <li><strong>Spring 2026</strong>: Anticipated commencement date, allowing time for regulatory guidance, system updates, and local authority readiness.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Local authorities should begin preparing for expanded enforcement responsibilities, including inspection protocols, tenant complaint handling, and integration with new data systems such as the proposed <a href="https://www.centreforpublicdata.org/new-report-national-landlord-register-for-england" title="New report: A national landlord register for England - how to make it work" target="_blank">National Landlord Register</a>.</mj-text>
+                <mj-text mj-class="paddit">We are here to support you through this period of change. Our quality assurance platforms are designed to help Local authorities and Housing Associations deliver the best outcomes for residents. If you would like to explore how we can work together, we would be delighted to <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">have a conversation</a> or show you a quick demo of the tools that could make a real difference for your team.</mj-text>
+                <mj-text mj-class="heading">Rapid Team Summer Event</mj-text>
+                <mj-text mj-class="paddit">Over the summer, the Rapid team came together for a fantastic day of collaboration and creative thinking. We were lucky to be joined by <a href="https://www.linkedin.com/in/ainhoamontero/" title="Ainhoa Montero de Espinosa" target="_blank">Ainhoa Montero de Espinosa</a> from <strong><a href="https://collaborationwave.com/" target="_blank" title="Collaboration Wave">Collaboration Wave</a></strong>, who led us through a unique workshop using <strong><a href="https://www.lego.com/en-gb/themes/serious-play" target="_blank" title="LEGO® SERIOUS PLAY®">LEGO® SERIOUS PLAY®</a></strong>.</mj-text>
+                <mj-text mj-class="paddit">Ainhoa encouraged us to take a fresh look at our future business strategy and behaviours. Using Lego as a tool, we explored ideas, challenged assumptions, and built models that represented our goals and values. It was a brilliant way to get everyone thinking differently and working together in a safe and open space.</mj-text>
+                <mj-text mj-class="paddit">There was something really refreshing about going back to basics. Sitting around a table, sharing ideas, and building with Lego reminded us how powerful simple tools can be when used with purpose. It sparked great conversations, helped us align as a team and gave us a chance to reflect on where we are heading.</mj-text>
+                <mj-text mj-class="paddit">And let us be honest, it was also good fun. There is something about Lego that brings out the inner child in all of us. It was playful, but with real purpose behind it. We left the day feeling energised, connected, and clearer about our direction.</mj-text>
+                <mj-text mj-class="paddit">If you are curious about how Serious Play could help your team, we highly recommend booking a call with <a href="https://calendly.com/ainhoamontero/30min" title="30 Min Call with Ainhoa" target="_blank">Ainhoa</a> for 30 minutes and talking about what is on your mind. We have seen the benefits first-hand, both in the short term and for the long haul.</mj-text>
+                <mj-image align="center" width="600" src="assets/images/LegoPlay.png" alt="Rapid Team Summer Event" title="Rapid Team Summer Event" />
+                <mj-text mj-class="paddit">Thank you for your continued trust and partnership.</mj-text>
+                <mj-text mj-class="paddit">The Rapid team.</mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="#dfd9fd" padding="25px 10px">
             <mj-column>
-                <mj-text mj-class="heading" align="center">Ready to discuss your project?</mj-text>
-                <mj-text mj-class="paddit" align="center">Contact Swifton Solutions today to explore how our bespoke software solutions can transform your business operations.</mj-text>
-                <mj-button background-color="#0070f3" font-size="18px" font-weight="400" href="https://swifton.co.uk/contact/" title="Get In Touch">Get In Touch</mj-button>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid — unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success — explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
             </mj-column>
         </mj-section>
         <mj-section>
             <mj-column>
                 <mj-social css-class="flexy row gap-1">
-                    <mj-social-element name="web-noshare" href="https://swifton.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
                     <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
                 </mj-social>
                 <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
