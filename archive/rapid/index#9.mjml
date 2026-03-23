@@ -1,0 +1,109 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Spring Update: Three New Digital Solutions Delivered</mj-title>
+        <mj-preview>Discover how Rapid is modernising legacy systems, improving tenant engagement, and supporting charities with new digital platforms.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#220a99" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="heading">March 2026 (#9)</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">As we move into March and welcome the first signs of spring, lighter mornings, warmer days, and a sense of renewal, it is a great moment to reflect on the meaningful work delivered across our teams. This month, we are pleased to showcase three impactful projects successfully completed for our customers across local government and the charity sector.</mj-text>
+                <mj-text mj-class="paddit">As our Rapid solutions continue to grow and evolve, we are increasingly collaborating with multiple local authorities on shared platforms and common capabilities. This multi LA approach strengthens value for everyone involved, reducing duplication, accelerating delivery, and enabling councils to learn from one another's successes. Looking forward, we will also continue exploring opportunities to embed AI into our solutions where it genuinely adds benefit, enhances service quality, and aligns with public sector guidelines and ethical standards. Together, these developments position us strongly for the next phase of innovation and partnership across the sector.</mj-text>
+                <mj-text mj-class="heading">1. Legacy Application Modernisation Successfully Delivered</mj-text>
+                <mj-text mj-class="paddit">We successfully completed the modernisation of a long standing on premise application by rebuilding it in Rapid and migrating it to the cloud. This upgrade replaced an unsupported legacy system with a secure, scalable, and fully maintainable solution.</mj-text>
+                <mj-text mj-class="paddit"><strong>Delivery Highlights</strong><ul>
+                    <li>Rebuilt essential Document Archiving solution with improved indexing, search and document workflows.</li>
+                    <li>Introduced robust role based permissions and document check in/check out.</li>
+                    <li>Enabled new-starter data integrations flowing from SAP.</li>
+                    <li>Delivered full audit trails for actions, workflows and document access.</li>
+                    <li>Streamlined reporting and strengthened SLA monitoring.</li>
+                    <li>Improved reliability and performance for day to day operations.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">This modernisation has created a stronger, more future proof foundation for continued service improvement.</mj-text>
+                <mj-text mj-class="heading">2. SMS Survey System</mj-text>
+                <mj-text mj-class="paddit">We also delivered a new SMS Survey System, enabling more responsive engagement with social housing tenants and improving how repair and service feedback is captured.</mj-text>
+                <mj-text mj-class="paddit"><strong>System Capabilities Now Live</strong><ul>
+                    <li>Configurable surveys with flexible question types.</li>
+                    <li>Personalised SMS invitations issued through <a href="https://www.notifications.service.gov.uk/" title="GOV.UK Notify" target="_blank">GOV.UK Notify</a>.</li>
+                    <li>Intelligent parsing of Yes/No replies and detailed tenant feedback.</li>
+                    <li>Secure storage and full NEC integration for responses.</li>
+                    <li>Scalable and secure architecture able to handle high message volumes.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit"><strong>Completed Delivery Phases</strong><ol>
+                    <li>Identified and validated NEC survey recipients.</li>
+                    <li>Built the SMS notifier module.</li>
+                    <li>Configured survey questions within NEC.</li>
+                    <li>Implemented logic for initial responses.</li>
+                    <li>Added follow up response handling and completed end to end testing.</li>
+                </ol></mj-text>
+                <mj-text mj-class="paddit">The system now gives <a href="https://www.lambeth.gov.uk/" title="Lambeth Council" target="_blank">Lambeth Council</a> real time insight into tenant satisfaction, helping inform service improvements.</mj-text>
+                <mj-text mj-class="heading">3. Supporting the Charity Sector: Client Progress Platform Delivered</mj-text>
+                <mj-text mj-class="paddit">We successfully delivered a cloud based Client Progress Tracking Platform, enhancing how the charity monitors client wellbeing, progress, and support needs. Built using Rapid's low code platform, the solution provides a modern and scalable digital approach to managing client journeys.</mj-text>
+                <mj-text mj-class="paddit"><strong>What the Platform Delivers</strong><ul>
+                    <li>Digitised assessments across key wellbeing domains including Health, Wellbeing, Personal Resilience, Social Connectedness, and more.</li>
+                    <li>Automated calculation of wellbeing and assessment scores.</li>
+                    <li>Priority ratings to support personalised planning.</li>
+                    <li>Tailored for different audiences.</li>
+                    <li>Reporting tools for individual and cohort analysis.</li>
+                    <li>PDF export, printing, diary/calendar functionality, and secure staff logins.</li>
+                    <li>Central admin dashboard for permissions and oversight.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit"><strong>Discovery Highlights</strong></mj-text>
+                <mj-text mj-class="paddit">At the start of the project, we carried out a focused discovery phase to refine and structure assessment questions.</mj-text>
+                <mj-text mj-class="paddit"><strong>This ensured that:</strong><ul>
+                    <li>Each question aligned to a measurable outcome.</li>
+                    <li>Data collection supported robust analysis and longitudinal tracking.</li>
+                    <li>All content was optimised for usability within the platform.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">This work enabled the delivery of a high quality tool that now supports <a href="https://disabilitysolutions.org.uk/" title="Disability Solutions West Midlands" target="_blank">Disability Solutions West Midlands</a> in providing more informed, targeted support to clients.</mj-text>
+                <mj-text mj-class="paddit">Thank you for your continued trust and partnership.</mj-text>
+                <mj-text mj-class="paddit">The Rapid team.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="paddit" align="center">Elevate your team with Rapid — unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success — explore Rapid today.</mj-text>
+                <mj-button background-color="#220a99" font-size="18px" font-weight="400" href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
