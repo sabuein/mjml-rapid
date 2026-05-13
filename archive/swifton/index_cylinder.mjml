@@ -1,0 +1,88 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Swifton Solutions: Reducing Admin and Risk in Cylinder Testing Operations</mj-title>
+        <mj-preview>How UK testing companies are managing traceability, certificates, and stock without spreadsheets or rework.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="heading" padding="10px 25px" color="#0070f3" font-size="24px" font-weight="700" line-height="1.25" />
+            <mj-class name="subheading" padding="10px 25px" color="#0070f3" font-size="20px" font-weight="700" line-height="1.25" />
+            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
+            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
+            <mj-all font-family="Ubuntu, Arial" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat">
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="heading">Swifton Solutions</mj-text>
+                <mj-text mj-class="heading">Tailored Software. Trusted Partnerships.</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle">
+                <mj-image align="right" width="200px" src="assets/images/swifton.png" alt="Swifton Solutions Logo" title="Swifton Solutions" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">I am reaching out as we work with UK companies involved in cylinder inspection, testing, refurbishment and filling, and we see the same challenges come up again and again.</mj-text>
+                <mj-text mj-class="paddit">Tracking cylinder history, managing certificates, assigning jobs, maintaining traceability, and keeping finance and stock aligned was costing time and introducing avoidable risk.</mj-text>
+                <mj-text mj-class="paddit">That is exactly where we now help.</mj-text>
+                <mj-text mj-class="paddit">Over the last few years, we have been building software specifically for organisations like yours, designed around how cylinder testing actually works in practice, not generic ERP assumptions.</mj-text>
+                <mj-text mj-class="paddit">At <strong><a href="https://swifton.co.uk/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">Swifton Solutions</a></strong>, we provide a platform that captures and manages the full lifecycle of a cylinder, including:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li>A digital record of every inspection, test, repair and fill.</li>
+                    <li>Full cylinder or batch traceability with searchable history.</li>
+                    <li>Certificate creation and storage linked directly to the cylinder record.</li>
+                    <li>Task assignment to inspectors and workshop teams.</li>
+                    <li>Stock management of new, in-test and retired cylinders.</li>
+                    <li>Integration with finance systems to reduce duplicate data entry.</li>
+                    <li>Optional QR codes to identify and manage cylinders through the test cycle.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Everything is designed to support compliance, reduce rework, and speed up turnaround - without changing how your engineers and inspectors actually work.</mj-text>
+                <mj-text mj-class="paddit">For our existing customer, this has meant:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li>Faster certification and fewer errors.</li>
+                    <li>Clear visibility of what is in test, what is delayed and why.</li>
+                    <li>Easier audits with all data in one place.</li>
+                    <li>Less time spent on spreadsheets and manual documents.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">The system is modular, so companies can start small and expand over time.</mj-text>
+                <mj-text mj-class="paddit">If this resonates, a <strong>short, informal discussion</strong> is usually the best next step. We typically:</mj-text>
+                <mj-text mj-class="paddit"><ul>
+                    <li>Walk through your current testing and certification process.</li>
+                    <li>Identify where data is being duplicated or lost.</li>
+                    <li>Share how similar organisations have structured their system.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Best regards,<br />Kumar Modi.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dfd9fd" padding="25px 10px">
+            <mj-column>
+                <mj-text mj-class="heading" align="center">Ready to discuss your project?</mj-text>
+                <mj-text mj-class="paddit" align="center">Contact Swifton Solutions today to explore how our bespoke software solutions can transform your business operations.</mj-text>
+                <mj-button background-color="#0070f3" font-size="18px" font-weight="400" href="https://swifton.co.uk/contact/" title="Get In Touch">Get In Touch</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://swifton.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
