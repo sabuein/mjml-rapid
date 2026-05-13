@@ -1,0 +1,128 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Strengthening Our Public Sector Technology Offering</mj-title>
+        <mj-preview>Rapid and Grace Governance Solutions are joining forces to deliver enhanced governance, risk, and continuity solutions.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-all font-family="Ubuntu, Arial, sans-serif" />
+            <mj-text padding="0" color="#3a3a4a" font-size="16px" line-height="1.65" />
+            <mj-section padding="0" />
+            <mj-class name="heading" padding="20px 32px 8px" color="#220a99" font-size="26px" font-weight="700" line-height="1.25" letter-spacing="-0.01em" />
+            <mj-class name="subheading" padding="16px 32px 4px" color="#220a99" font-size="19px" font-weight="700" line-height="1.3" letter-spacing="-0.005em" />
+            <mj-class name="paddit" padding="8px 32px" color="#3a3a4a" font-size="16px" font-weight="400" line-height="1.65" />
+            <mj-class name="lead" padding="8px 32px" color="#2a2a3a" font-size="17px" font-weight="400" line-height="1.65" />
+            <mj-class name="date" padding="0 32px" color="#5a4fb0" font-size="14px" font-weight="500" align="right" letter-spacing="0.02em" />
+            <mj-class name="header-title" padding="16px 32px 4px" color="#220a99" font-size="28px" font-weight="700" line-height="1.2" letter-spacing="-0.015em" />
+            <mj-class name="header-issue" padding="0 32px 16px" color="#5a4fb0" font-size="15px" font-weight="600" letter-spacing="0.08em" />
+            <mj-class name="cta-heading" padding="8px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.3" align="center" letter-spacing="-0.01em" />
+            <mj-class name="cta-text" padding="8px 32px 20px" color="#3a3a4a" font-size="16px" line-height="1.65" align="center" />
+            <mj-class name="footer-text" padding="8px 25px" color="#7a7a8a" font-size="13px" line-height="1.5" align="center" />
+            <mj-button background-color="#220a99" color="#ffffff" font-size="16px" font-weight="600" inner-padding="14px 36px" border-radius="8px" letter-spacing="0.02em" />
+            <mj-divider border-color="#e6e1f7" border-width="1px" padding="20px 32px 4px" />
+            <mj-social icon-size="28px" mode="horizontal" align="center" inner-padding="0 8px" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+            a { color: #220a99; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.2s ease; }
+            a:hover { color: #5a4fb0; }
+            .article-list { margin: 4px 0 0; padding-left: 22px; }
+            .article-list li { margin-bottom: 10px; line-height: 1.65; padding-left: 4px; }
+            .article-list li::marker { color: #5a4fb0; }
+            strong { color: #220a99; font-weight: 700; }
+            @media only screen and (max-width: 600px) {
+                .mobile-pad { padding: 16px 8px !important; }
+                .mobile-center { text-align: center !important; }
+                .mobile-center img { margin: 0 auto !important; }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px" background-color="#f5f3fc">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+
+        <mj-raw><!-- Top accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Header --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat" padding="28px 8px"><!-- background-url="assets/images/big_ben_1200px.jpg" background-size="cover" background-repeat="no-repeat" -->
+            <mj-column vertical-align="middle" width="60%">
+                <mj-text mj-class="header-title">Rapid Information Systems Newsletter</mj-text>
+                <mj-text mj-class="header-issue">MAY 2026  ·  ISSUE #10</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
+                <mj-image align="right" width="200px" padding="0 24px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+                <mj-text mj-class="date" css-class="update-date"></mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Main content --></mj-raw>
+        <mj-section background-color="#ffffff" padding="36px 8px 24px">
+            <mj-column vertical-align="middle">
+                <mj-text mj-class="lead" padding="0 32px 12px">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">We are thrilled to share another significant milestone in the growth of the <a href="https://rapid-is.co.uk/" title="Rapid" target="_blank">Rapid</a>, we have officially acquired <a href="https://gracegs.com/" title="Grace Governance Solutions" target="_blank">Grace Governance Solutions</a>, specialists in governance, risk, and compliance software for the public sector.</mj-text>
+                <mj-text mj-class="paddit">You may recall that last year we also welcomed <a href="https://swifton.co.uk/" title="Swifton Solutions" target="_blank">Swifton Solutions</a> into our family. What makes this latest acquisition particularly special is that Swifton's team were the original developers behind Grace's software, so this brings together, under one roof, both the product and the people who built it.</mj-text>
+                <mj-divider />
+                <mj-text mj-class="heading">About Grace Governance Solutions</mj-text>
+                <mj-text mj-class="paddit">Grace have specialised in risk management software for over 20 years witha suite of specialist tools designed specifically for public sector organisations, developed in close partnership with local authorities. Their software is already trusted by 15 public sector organisations.</mj-text>
+                <mj-text mj-class="paddit" padding="16px 32px 4px"><strong>Their product suite includes three solutions:</strong></mj-text>
+                <mj-text mj-class="subheading">GRACE — Governance, Risk and Control Evaluation</mj-text>
+                <mj-text mj-class="paddit">Helps organisations manage corporate risk, embed governance frameworks, and demonstrate accountability across their operations.</mj-text>
+                <mj-text mj-class="subheading">HARRIET — Hazard Assessment & Risk Review Identification and Evaluation Tool</mj-text>
+                <mj-text mj-class="paddit">A health and safety risk assessment platform with a built-in risk library, accident reporting module, and configurable alerts — designed by practitioners for practitioners.</mj-text>
+                <mj-text mj-class="subheading">Connie — Business Continuity in Emergencies</mj-text>
+                <mj-text mj-class="paddit">Supports the development and management of business continuity plans, with built-in incident response and recovery tools aligned to the <a href="https://assets.publishing.service.gov.uk/media/5a795988e5274a2acd18c16b/Chapter-6-Business-Continuity-Management_amends_04042012.pdf" title="Business Continuity Management" target="_blank">business continuity management standard (BS25999)</a>.</mj-text>
+                <mj-divider />
+                <mj-text mj-class="heading">What does this mean for you?</mj-text>
+                <mj-text mj-class="paddit">As a Rapid customer, you now have direct access to a proven suite of governance, health and safety, and business continuity tools, backed by a team that both built and supports them. Combined with Rapid's expertise in digital transformation, AI integration, and application modernisation, we are now better placed than ever to support your organisation end-to-end. This includes:</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
+                    <li>Governance & compliance management platforms (GRACE)</li>
+                    <li>Health & safety risk assessment software (HARRIET)</li>
+                    <li>Business continuity planning and incident response (Connie)</li>
+                    <li>Combined digital transformation and governance programmes</li>
+                    <li>Cross-group expertise spanning .NET, Azure, AI integration, and compliance</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">If you would like to learn more about Grace's solutions or explore how they could benefit your organisation, please get in touch with the Rapid team, we would love to arrange a conversation.</mj-text>
+                <mj-spacer height="8px" />
+                <mj-text mj-class="paddit">Thank you, as always, for your continued trust and partnership.</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 0">The Rapid Information Systems team.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- CTA section --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="44px 16px">
+            <mj-column>
+                <mj-text mj-class="cta-heading">See how Rapid can help your teams stay ahead</mj-text>
+                <mj-text mj-class="cta-text">Elevate your team with Rapid — unlocking streamlined collaboration and productivity. Our innovative solutions empower teams to thrive in today's dynamic business landscape, offering tools for efficiency, communication, and seamless project management. Take the first step towards success — explore Rapid today.</mj-text>
+                <mj-button href="https://rapid-is.co.uk/contact/" title="Contact Rapid">Contact Rapid</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Footer --></mj-raw>
+        <mj-section background-color="#ffffff" padding="32px 16px 12px">
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-divider padding="20px 32px 8px" />
+                <mj-text mj-class="footer-text"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Bottom accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
