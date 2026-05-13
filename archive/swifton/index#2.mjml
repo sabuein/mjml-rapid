@@ -1,15 +1,26 @@
 <mjml lang="en" dir="ltr">
     <mj-head>
-        <mj-title>Swifton Solutions: Reducing Admin and Risk in Cylinder Testing Operations</mj-title>
-        <mj-preview>How UK testing companies are managing traceability, certificates, and stock without spreadsheets or rework.</mj-preview>
+        <mj-title>Strengthening Our Public Sector Technology Offering</mj-title>
+        <mj-preview>Swifton and Grace Governance Solutions are joining forces to deliver enhanced governance, risk, and continuity solutions.</mj-preview>
         <mj-breakpoint width="600px" />
         <mj-attributes>
-            <mj-text padding="0" />
-            <mj-class name="heading" padding="10px 25px" color="#0070f3" font-size="24px" font-weight="700" line-height="1.25" />
-            <mj-class name="subheading" padding="10px 25px" color="#0070f3" font-size="20px" font-weight="700" line-height="1.25" />
-            <mj-class name="paddit" padding="10px 25px" color="#525252" font-size="18px" font-weight="400" line-height="1.5" />
-            <mj-class name="date" padding="0 25px" font-size="16px" align="right" />
-            <mj-all font-family="Ubuntu, Arial" />
+            <mj-all font-family="Ubuntu, Arial, sans-serif" />
+            <mj-text padding="0" color="#3a3a4a" font-size="16px" line-height="1.65" />
+            <mj-section padding="0" />
+            <mj-class name="heading" padding="20px 32px 8px" color="#0070f3" font-size="26px" font-weight="700" line-height="1.25" letter-spacing="-0.01em" />
+            <mj-class name="subheading" padding="16px 32px 4px" color="#0070f3" font-size="19px" font-weight="700" line-height="1.3" letter-spacing="-0.005em" />
+            <mj-class name="paddit" padding="8px 32px" color="#3a3a4a" font-size="16px" font-weight="400" line-height="1.65" />
+            <mj-class name="lead" padding="8px 32px" color="#2a2a3a" font-size="17px" font-weight="400" line-height="1.65" />
+            <mj-class name="date" padding="0 32px" color="#1e5bbf" font-size="14px" font-weight="500" align="right" letter-spacing="0.02em" />
+            <mj-class name="header-title" padding="16px 32px 4px" color="#0070f3" font-size="28px" font-weight="700" line-height="1.2" letter-spacing="-0.015em" />
+            <mj-class name="header-tagline" padding="0 32px 16px" color="#1e5bbf" font-size="15px" font-weight="600" letter-spacing="0.04em" />
+            <mj-class name="header-issue" padding="0 32px 16px" color="#1e5bbf" font-size="15px" font-weight="600" letter-spacing="0.08em" />
+            <mj-class name="cta-heading" padding="8px 25px" color="#0070f3" font-size="24px" font-weight="700" line-height="1.3" align="center" letter-spacing="-0.01em" />
+            <mj-class name="cta-text" padding="8px 32px 20px" color="#3a3a4a" font-size="16px" line-height="1.65" align="center" />
+            <mj-class name="footer-text" padding="8px 25px" color="#7a7a8a" font-size="13px" line-height="1.5" align="center" />
+            <mj-button background-color="#0070f3" color="#ffffff" font-size="16px" font-weight="600" inner-padding="14px 36px" border-radius="8px" letter-spacing="0.02em" />
+            <mj-divider border-color="#d8e7fb" border-width="1px" padding="20px 32px 4px" />
+            <mj-social icon-size="28px" mode="horizontal" align="center" inner-padding="0 8px" />
         </mj-attributes>
         <mj-html-attributes>
             <mj-selector path=".flexy table">
@@ -18,70 +29,103 @@
         </mj-html-attributes>
         <mj-style>
             .flexy table { margin: 0; }
+            a { color: #0070f3; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.2s ease; }
+            a:hover { color: #1e5bbf; }
+            .article-list { margin: 4px 0 0; padding-left: 22px; }
+            .article-list li { margin-bottom: 10px; line-height: 1.65; padding-left: 4px; }
+            .article-list li::marker { color: #1e5bbf; }
+            strong { color: #0070f3; font-weight: 700; }
+            @media only screen and (max-width: 600px) {
+                .mobile-pad { padding: 16px 8px !important; }
+                .mobile-center { text-align: center !important; }
+                .mobile-center img { margin: 0 auto !important; }
+            }
         </mj-style>
     </mj-head>
-    <mj-body width="1080px">
+    <mj-body width="1080px" background-color="#f0f6ff">
         <mj-include path="assets/styles/screen.css" type="css" />
         <mj-raw><!-- Message body --></mj-raw>
-        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat">
-            <mj-column vertical-align="middle">
-                <mj-text mj-class="heading">Swifton Solutions</mj-text>
-                <mj-text mj-class="heading">Tailored Software. Trusted Partnerships.</mj-text>
+
+        <mj-raw><!-- Top accent bar --></mj-raw>
+        <mj-section background-color="#0070f3" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
             </mj-column>
-            <mj-column vertical-align="middle">
-                <mj-image align="right" width="200px" src="assets/images/swifton.png" alt="Swifton Solutions Logo" title="Swifton Solutions" />
+        </mj-section>
+
+        <mj-raw><!-- Header --></mj-raw>
+        <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat" padding="28px 8px">
+            <mj-column vertical-align="middle" width="60%">
+                <mj-text mj-class="header-title">Swifton Solutions Newsletter</mj-text>
+                <mj-text mj-class="header-issue">MAY 2026  ·  ISSUE #2</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
+                <mj-image align="right" width="200px" padding="0 24px" src="assets/images/swifton.png" alt="Swifton Solutions Logo" title="Swifton Solutions" />
                 <mj-text mj-class="date" css-class="update-date"></mj-text>
             </mj-column>
         </mj-section>
-        <mj-section>
+
+        <mj-raw><!-- Main content --></mj-raw>
+        <mj-section background-color="#ffffff" padding="36px 8px 24px">
             <mj-column vertical-align="middle">
-                <mj-text mj-class="paddit">Hello {firstName},</mj-text>
-                <mj-text mj-class="paddit">I am reaching out as we work with UK companies involved in cylinder inspection, testing, refurbishment and filling, and we see the same challenges come up again and again.</mj-text>
-                <mj-text mj-class="paddit">Tracking cylinder history, managing certificates, assigning jobs, maintaining traceability, and keeping finance and stock aligned was costing time and introducing avoidable risk.</mj-text>
-                <mj-text mj-class="paddit">That is exactly where we now help.</mj-text>
-                <mj-text mj-class="paddit">Over the last few years, we have been building software specifically for organisations like yours, designed around how cylinder testing actually works in practice, not generic ERP assumptions.</mj-text>
-                <mj-text mj-class="paddit">At <strong><a href="https://swifton.co.uk/" target="_blank" title="Swifton Solutions - Tailored Software. Trusted Partnerships.">Swifton Solutions</a></strong>, we provide a platform that captures and manages the full lifecycle of a cylinder, including:</mj-text>
-                <mj-text mj-class="paddit"><ul>
-                    <li>A digital record of every inspection, test, repair and fill.</li>
-                    <li>Full cylinder or batch traceability with searchable history.</li>
-                    <li>Certificate creation and storage linked directly to the cylinder record.</li>
-                    <li>Task assignment to inspectors and workshop teams.</li>
-                    <li>Stock management of new, in-test and retired cylinders.</li>
-                    <li>Integration with finance systems to reduce duplicate data entry.</li>
-                    <li>Optional QR codes to identify and manage cylinders through the test cycle.</li>
+                <mj-text mj-class="lead" padding="0 32px 12px">Hello {firstName},</mj-text>
+                <mj-text mj-class="paddit">We have some exciting news to share. <a href="https://rapid-is.co.uk/" title="Rapid" target="_blank">Rapid</a> has officially acquired <a href="https://gracegs.com/" title="Grace Governance Solutions" target="_blank">Grace Governance Solutions</a> — and for those who know <a href="https://swifton.co.uk/" title="Swifton" target="_blank">Swifton</a>'s history, this announcement will feel particularly close to home.</mj-text>
+                <mj-text mj-class="paddit">Swifton's team were the original developers of Grace's software suite. We built GRACE, HARRIET, and Connie — and over the years watched them grow into trusted solutions used by local authorities, the fire service, and schools across the UK. This acquisition means that for the first time, the team that built these products and the company that owns them are united under one roof. It is something we are genuinely proud of.</mj-text>
+                <mj-divider />
+                <mj-text mj-class="heading">A reminder of what Grace's solutions do</mj-text>
+                <mj-text mj-class="subheading">GRACE — Governance, Risk and Control Evaluation</mj-text>
+                <mj-text mj-class="paddit">Corporate governance and risk management software, developed in partnership with local authorities.</mj-text>
+                <mj-text mj-class="subheading">HARRIET — Health & Safety Risk Assessment</mj-text>
+                <mj-text mj-class="paddit">A complete health and safety platform covering hazard identification, risk libraries, accident reporting, and scheduled alerts. Designed by practitioners for practitioners.</mj-text>
+                <mj-text mj-class="subheading">Connie — Business Continuity in Emergencies</mj-text>
+                <mj-text mj-class="paddit">Business continuity planning and incident response, aligned to the <a href="https://assets.publishing.service.gov.uk/media/5a795988e5274a2acd18c16b/Chapter-6-Business-Continuity-Management_amends_04042012.pdf" title="Business Continuity Management" target="_blank">business continuity management standard (BS25999)</a> and developed with local authorities.</mj-text>
+                <mj-divider />
+                <mj-text mj-class="heading">What this means going forward</mj-text>
+                <mj-text mj-class="paddit">Swifton continues to operate as its own company; it is business as usual for all existing customers and projects. What changes is that Grace's solutions now benefit from Swifton's full development team behind them, and access to the broader Rapid group's capabilities including:</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
+                    <li>AI integration and application modernisation.</li>
+                    <li>ISO 27001 certified security and resilience support.</li>
+                    <li>Low-code development and digital transformation expertise.</li>
                 </ul></mj-text>
-                <mj-text mj-class="paddit">Everything is designed to support compliance, reduce rework, and speed up turnaround - without changing how your engineers and inspectors actually work.</mj-text>
-                <mj-text mj-class="paddit">For our existing customer, this has meant:</mj-text>
-                <mj-text mj-class="paddit"><ul>
-                    <li>Faster certification and fewer errors.</li>
-                    <li>Clear visibility of what is in test, what is delayed and why.</li>
-                    <li>Easier audits with all data in one place.</li>
-                    <li>Less time spent on spreadsheets and manual documents.</li>
-                </ul></mj-text>
-                <mj-text mj-class="paddit">The system is modular, so companies can start small and expand over time.</mj-text>
-                <mj-text mj-class="paddit">If this resonates, a <strong>short, informal discussion</strong> is usually the best next step. We typically:</mj-text>
-                <mj-text mj-class="paddit"><ul>
-                    <li>Walk through your current testing and certification process.</li>
-                    <li>Identify where data is being duplicated or lost.</li>
-                    <li>Share how similar organisations have structured their system.</li>
-                </ul></mj-text>
-                <mj-text mj-class="paddit">Best regards,<br />Kumar Modi.</mj-text>
+                <mj-divider />
+                <mj-text mj-class="heading">A message to Grace customers</mj-text>
+                <mj-text mj-class="paddit">First and foremost, it is business as usual. Your existing contracts, support, and services remain completely unchanged, and the teams you know are still here to help.</mj-text>
+                <mj-text mj-class="paddit">That said, we are genuinely excited about what comes next. With Swifton's full development capability now behind Grace's solutions, we have ambitious plans including adding new features, improving performance, and evolving the platforms to meet your needs even better.</mj-text>
+                <mj-text mj-class="paddit">We will be hosting a virtual showcase where we will walk you through the new developments and give you a chance to see what is in the pipeline. We would love to see you there — details to follow.</mj-text>
+                <mj-text mj-class="heading">What this means for Swifton customers</mj-text>
+                <mj-text mj-class="paddit">For Swifton customers who may not yet be aware of Grace's solutions, we would love to tell you more. GRACE, HARRIET, and Connie are a natural fit for many of the organisations we already work with, and we would be happy to walk you through what they offer.</mj-text>
+                <mj-divider />
+                <mj-text mj-class="paddit">In the meantime, please do not hesitate to reach out to <a href="mailto:kumar.modi@email.rapid-is.co.uk">Kumar Modi</a> if you have any questions or would simply like a chat. We are always happy to arrange a call or a visit.</mj-text>
+                <mj-spacer height="8px" />
+                <mj-text mj-class="paddit">Best regards,<br />The Swifton Solutions team.</mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-color="#dfd9fd" padding="25px 10px">
+
+        <mj-raw><!-- CTA section --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="44px 16px">
             <mj-column>
-                <mj-text mj-class="heading" align="center">Ready to discuss your project?</mj-text>
-                <mj-text mj-class="paddit" align="center">Contact Swifton Solutions today to explore how our bespoke software solutions can transform your business operations.</mj-text>
-                <mj-button background-color="#0070f3" font-size="18px" font-weight="400" href="https://swifton.co.uk/contact/" title="Get In Touch">Get In Touch</mj-button>
+                <mj-text mj-class="cta-heading">Ready to discuss your project?</mj-text>
+                <mj-text mj-class="cta-text">Contact Swifton Solutions today to explore how our bespoke software solutions can transform your business operations.</mj-text>
+                <mj-button href="https://swifton.co.uk/contact/" title="Get In Touch">Get In Touch</mj-button>
             </mj-column>
         </mj-section>
-        <mj-section>
+
+        <mj-raw><!-- Footer --></mj-raw>
+        <mj-section background-color="#ffffff" padding="32px 16px 12px">
             <mj-column>
                 <mj-social css-class="flexy row gap-1">
                     <mj-social-element name="web-noshare" href="https://swifton.co.uk/" title="Web">Web</mj-social-element>
                     <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
                 </mj-social>
-                <mj-text mj-class="paddit" align="center"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+                <mj-divider padding="20px 32px 8px" />
+                <mj-text mj-class="footer-text"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Bottom accent bar --></mj-raw>
+        <mj-section background-color="#0070f3" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
             </mj-column>
         </mj-section>
     </mj-body>
