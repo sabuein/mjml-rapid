@@ -1,7 +1,7 @@
 <mjml lang="en" dir="ltr">
     <mj-head>
-        <mj-title>Strengthening Our Public Sector Technology Offering</mj-title>
-        <mj-preview>Swifton and Grace Governance Solutions are joining forces to deliver enhanced governance, risk, and continuity solutions.</mj-preview>
+        <mj-title>Introducing Grace Audit — The Newest Addition to the Grace Family</mj-title>
+        <mj-preview>Today we are delighted to introduce Grace Audit, a purpose-built internal audit management solution for the public sector.</mj-preview>
         <mj-breakpoint width="600px" />
         <mj-attributes>
             <mj-all font-family="Ubuntu, Arial, sans-serif" />
@@ -57,7 +57,7 @@
         <mj-section background-color="#dfd9fd" background-size="cover" background-repeat="no-repeat" padding="28px 8px">
             <mj-column vertical-align="middle" width="60%">
                 <mj-text mj-class="header-title">Swifton Solutions Newsletter</mj-text>
-                <mj-text mj-class="header-issue">MAY 2026  ·  ISSUE #2</mj-text>
+                <mj-text mj-class="header-issue">JUNE 2026  ·  ISSUE #3</mj-text>
             </mj-column>
             <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
                 <mj-image align="right" width="200px" padding="0 24px" src="assets/images/swifton.png" alt="Swifton Solutions Logo" title="Swifton Solutions" />
@@ -69,33 +69,43 @@
         <mj-section background-color="#ffffff" padding="36px 8px 24px">
             <mj-column vertical-align="middle">
                 <mj-text mj-class="lead" padding="0 32px 12px">Hello {firstName},</mj-text>
-                <mj-text mj-class="paddit">We have some exciting news to share. <a href="https://rapid-is.co.uk/" title="Rapid" target="_blank">Rapid</a> has officially acquired <a href="https://gracegs.com/" title="Grace Governance Solutions" target="_blank">Grace Governance Solutions</a> — and for those who know <a href="https://swifton.co.uk/" title="Swifton" target="_blank">Swifton</a>'s history, this announcement will feel particularly close to home.</mj-text>
-                <mj-text mj-class="paddit">Swifton's team were the original developers of Grace's software suite. We built GRACE, HARRIET, and Connie — and over the years watched them grow into trusted solutions used by local authorities, the fire service, and schools across the UK. This acquisition means that for the first time, the team that built these products and the company that owns them are united under one roof. It is something we are genuinely proud of.</mj-text>
+                <mj-text mj-class="paddit">We have some exciting news to share, and if you have been following our recent announcements, we think this one will particularly interest you.</mj-text>
+                <mj-text mj-class="paddit">Today we are delighted to introduce <strong>Grace Audit</strong> — a purpose-built internal audit management solution, and the newest addition to the Grace family alongside <a href="https://gracegs.com/#products" title="Grace Governance Solutions" target="_blank">GRACE, HARRIET, and Connie</a>.</mj-text>
                 <mj-divider />
-                <mj-text mj-class="heading">A reminder of what Grace's solutions do</mj-text>
-                <mj-text mj-class="subheading">GRACE — Governance, Risk and Control Evaluation</mj-text>
-                <mj-text mj-class="paddit">Corporate governance and risk management software, developed in partnership with local authorities.</mj-text>
-                <mj-text mj-class="subheading">HARRIET — Health & Safety Risk Assessment</mj-text>
-                <mj-text mj-class="paddit">A complete health and safety platform covering hazard identification, risk libraries, accident reporting, and scheduled alerts. Designed by practitioners for practitioners.</mj-text>
-                <mj-text mj-class="subheading">Connie — Business Continuity in Emergencies</mj-text>
-                <mj-text mj-class="paddit">Business continuity planning and incident response, aligned to the <a href="https://assets.publishing.service.gov.uk/media/5a795988e5274a2acd18c16b/Chapter-6-Business-Continuity-Management_amends_04042012.pdf" title="Business Continuity Management" target="_blank">business continuity management standard (BS25999)</a> and developed with local authorities.</mj-text>
+                <mj-text mj-class="heading">Introducing Grace Audit</mj-text>
+                <mj-text mj-class="paddit">Grace Audit is designed specifically for internal audit teams in the public sector. If your team is currently managing audit programmes through a combination of Word documents, Excel trackers, and email threads, Grace Audit brings everything together in one place — from annual planning right through to your Head of Audit's annual opinion.</mj-text>
+                <mj-text mj-class="paddit">We built it to be used by small audit teams without specialist IT support, and to reflect the way public sector internal audit works.</mj-text>
                 <mj-divider />
-                <mj-text mj-class="heading">What this means going forward</mj-text>
-                <mj-text mj-class="paddit">Swifton continues to operate as its own company; it is business as usual for all existing customers and projects. What changes is that Grace's solutions now benefit from Swifton's full development team behind them, and access to the broader Rapid group's capabilities including:</mj-text>
+                <mj-text mj-class="heading">What Grace Audit includes</mj-text>
+                <mj-text mj-class="subheading">Core Audit Management</mj-text>
+                <mj-text mj-class="paddit">Create and manage audit engagements with title, status, risk level, planned days, and start/due dates. A clear status workflow takes each audit from Planning through Fieldwork, Reporting, Complete, and Archived — with RAG status tracking throughout.</mj-text>
+                <mj-text mj-class="subheading">Audit Universe</mj-text>
+                <mj-text mj-class="paddit">A risk-ranked register of all your auditable areas, scored by likelihood and impact to support your annual audit plan. Track last audited year, assurance level, responsible owner, and department — and link universe entries directly to live audit engagements.</mj-text>
+                <mj-text mj-class="subheading">Audit Tasks &amp; Procedures</mj-text>
+                <mj-text mj-class="paddit">Add tasks to each audit manually, from a pre-built template library, or via CSV import. Grace Audit includes 15 standard task templates across Planning, Fieldwork, Reporting, and Follow-up phases, plus 10 subject-matter procedure templates covering areas including:</mj-text>
                 <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
-                    <li>AI integration and application modernisation.</li>
-                    <li>ISO 27001 certified security and resilience support.</li>
-                    <li>Low-code development and digital transformation expertise.</li>
+                    <li>Procurement</li>
+                    <li>Payroll</li>
+                    <li>IT &amp; Cyber</li>
+                    <li>Housing Benefits</li>
+                    <li>Safeguarding</li>
+                    <li>Grant Funding</li>
                 </ul></mj-text>
+                <mj-text mj-class="paddit">Each task has a built-in time tracker, review and sign-off workflow, and workpaper file attachments.</mj-text>
+                <mj-text mj-class="subheading">Recommendations Tracker</mj-text>
+                <mj-text mj-class="paddit">Formal recommendation tracking across all audits, with risk ratings, status workflow, target dates, overdue indicators, and progress updates. Never lose sight of an outstanding action again.</mj-text>
+                <mj-text mj-class="subheading">Reports</mj-text>
+                <mj-text mj-class="paddit">Generate an Audit Report per engagement and an Annual Opinion at portfolio level — pulling directly from your findings, risks, and recommendations, with no copy-pasting required.</mj-text>
+                <mj-text mj-class="subheading">Dashboard</mj-text>
+                <mj-text mj-class="paddit">A live summary across all active audits showing task completion rates, overdue items, RAG distribution, and time tracking totals.</mj-text>
                 <mj-divider />
-                <mj-text mj-class="heading">A message to Grace customers</mj-text>
-                <mj-text mj-class="paddit">First and foremost, it is business as usual. Your existing contracts, support, and services remain completely unchanged, and the teams you know are still here to help.</mj-text>
-                <mj-text mj-class="paddit">That said, we are genuinely excited about what comes next. With Swifton's full development capability now behind Grace's solutions, we have ambitious plans including adding new features, improving performance, and evolving the platforms to meet your needs even better.</mj-text>
-                <mj-text mj-class="paddit">We will be hosting a virtual showcase where we will walk you through the new developments and give you a chance to see what is in the pipeline. We would love to see you there — details to follow.</mj-text>
-                <mj-text mj-class="heading">What this means for Swifton customers</mj-text>
-                <mj-text mj-class="paddit">For Swifton customers who may not yet be aware of Grace's solutions, we would love to tell you more. GRACE, HARRIET, and Connie are a natural fit for many of the organisations we already work with, and we would be happy to walk you through what they offer.</mj-text>
+                <mj-text mj-class="heading">Why now?</mj-text>
+                <mj-text mj-class="paddit">With Swifton's full development capability behind the Grace suite, we have been able to move quickly on features that public sector teams need but struggled to find in a solution that is affordable, practical, and easy to adopt.</mj-text>
+                <mj-text mj-class="paddit">Grace Audit is the result — and we are proud to bring it to market as part of the same trusted suite our customers already rely on.</mj-text>
                 <mj-divider />
-                <mj-text mj-class="paddit">In the meantime, please do not hesitate to reach out to <a href="mailto:kumar.modi@email.rapid-is.co.uk">Kumar Modi</a> if you have any questions or would simply like a chat. We are always happy to arrange a call or a visit.</mj-text>
+                <mj-text mj-class="heading">Find out more</mj-text>
+                <mj-text mj-class="paddit">We will be hosting a virtual showcase of all the Grace solutions. Details to follow shortly.</mj-text>
+                <mj-text mj-class="paddit">In the meantime, please do not hesitate to reach out to us at <a href="mailto:info@rapid-is.co.uk">info@rapid-is.co.uk</a> if you would like a conversation, an early look, or simply want to know more. We are always happy to arrange a call or a visit.</mj-text>
                 <mj-spacer height="8px" />
                 <mj-text mj-class="paddit">Best regards,<br />The Swifton Solutions team.</mj-text>
             </mj-column>
@@ -104,8 +114,8 @@
         <mj-raw><!-- CTA section --></mj-raw>
         <mj-section background-color="#dfd9fd" padding="44px 16px">
             <mj-column>
-                <mj-text mj-class="cta-heading">Ready to discuss your project?</mj-text>
-                <mj-text mj-class="cta-text">Contact Swifton Solutions today to explore how our bespoke software solutions can transform your business operations.</mj-text>
+                <mj-text mj-class="cta-heading">Want to see Grace Audit in action?</mj-text>
+                <mj-text mj-class="cta-text">Get in touch with the Swifton Solutions team to request an early look or arrange a conversation about how Grace Audit could work for your organisation.</mj-text>
                 <mj-button href="https://swifton.co.uk/contact/" title="Get In Touch">Get In Touch</mj-button>
             </mj-column>
         </mj-section>
