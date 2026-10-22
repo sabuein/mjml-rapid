@@ -64,7 +64,7 @@
         <mj-section background-color="#ffffff" padding="36px 8px 8px">
             <mj-column>
                 <mj-text mj-class="lead" padding="0 32px 12px">Dear {firstName},</mj-text>
-                <mj-text mj-class="paddit">We would like to reassure you that the recently reported PHP vulnerabilities, <strong>CVE-2026-109618</strong> and <strong>CVE-2026-109619</strong> (widely referred to as "PHP2Shell"), <strong>do not affect</strong> the Rapid platform or the services we provide.</mj-text>
+                <mj-text mj-class="paddit">We would like to reassure you that the recently reported PHP vulnerabilities, <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w" title="CVE-2026-109618 – PHP security advisory" target="_blank"><strong>CVE-2026-109618</strong></a> and <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp" title="CVE-2026-109619 – PHP security advisory" target="_blank"><strong>CVE-2026-109619</strong></a> (widely referred to as "PHP2Shell"), <strong>do not affect</strong> the Rapid platform or the services we provide.</mj-text>
             </mj-column>
         </mj-section>
 
@@ -82,7 +82,7 @@
                 <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
                     <li>Completed our checks across the Rapid platform and our hosting servers.</li>
                     <li>Confirmed that none of our hosting servers are affected.</li>
-                    <li>We will continue to monitor official guidance and will contact you directly should anything change.</li>
+                    <li>We will continue to monitor <a href="https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php" title="NCSC: Critical security issue affecting PHP" target="_blank">official guidance from the NCSC</a> and will contact you directly should anything change.</li>
                 </ul></mj-text>
                 <mj-text mj-class="paddit">We remain committed to maintaining the security and reliability of the Rapid platform. If you have any questions, simply reply to this email or <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">get in touch</a>.</mj-text>
 
