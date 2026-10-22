@@ -1,0 +1,114 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>Security Update: PHP Vulnerabilities</mj-title>
+        <mj-preview>The recently reported PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) do not affect the Rapid platform. No action is required.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-all font-family="Ubuntu, Arial, sans-serif" />
+            <mj-text padding="0" color="#3a3a4a" font-size="16px" line-height="1.65" />
+            <mj-section padding="0" />
+            <mj-class name="heading" padding="20px 32px 8px" color="#220a99" font-size="26px" font-weight="700" line-height="1.25" letter-spacing="-0.01em" />
+            <mj-class name="paddit" padding="8px 32px" color="#3a3a4a" font-size="16px" font-weight="400" line-height="1.65" />
+            <mj-class name="lead" padding="8px 32px" color="#2a2a3a" font-size="17px" font-weight="400" line-height="1.65" />
+            <mj-class name="header-title" padding="16px 32px 4px" color="#220a99" font-size="28px" font-weight="700" line-height="1.2" letter-spacing="-0.015em" />
+            <mj-class name="header-issue" padding="0 32px 16px" color="#5a4fb0" font-size="15px" font-weight="600" letter-spacing="0.08em" />
+            <mj-class name="status-label" padding="0 24px 4px" color="#1b6e3a" font-size="13px" font-weight="700" letter-spacing="0.09em" />
+            <mj-class name="status-text" padding="0 24px" color="#1f3a2a" font-size="16px" font-weight="500" line-height="1.6" />
+            <mj-class name="footer-text" padding="8px 25px" color="#7a7a8a" font-size="13px" line-height="1.5" align="center" />
+            <mj-divider border-color="#e6e1f7" border-width="1px" padding="20px 32px 4px" />
+            <mj-social icon-size="28px" mode="horizontal" align="center" inner-padding="0 8px" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+            a { color: #220a99; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+            a:hover { color: #5a4fb0; }
+            .article-list { margin: 4px 0 0; padding-left: 22px; }
+            .article-list li { margin-bottom: 10px; line-height: 1.65; padding-left: 4px; }
+            .article-list li::marker { color: #5a4fb0; }
+            strong { color: #220a99; font-weight: 700; }
+            .status-box strong { color: #1b6e3a; }
+            @media only screen and (max-width: 600px) {
+                .mobile-center { text-align: center !important; }
+                .mobile-center img { margin: 0 auto !important; }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px" background-color="#f5f3fc">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+
+        <mj-raw><!-- Top accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Header --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="28px 8px">
+            <mj-column vertical-align="middle" width="60%">
+                <mj-text mj-class="header-title">Security Update: PHP Vulnerabilities</mj-text>
+                <mj-text mj-class="header-issue">SECURITY NOTICE  ·  OCTOBER 2026</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
+                <mj-image align="right" width="200px" padding="0 24px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Main content --></mj-raw>
+        <mj-section background-color="#ffffff" padding="36px 8px 8px">
+            <mj-column>
+                <mj-text mj-class="lead" padding="0 32px 12px">Dear {firstName},</mj-text>
+                <mj-text mj-class="paddit">We would like to reassure you that the recently reported PHP vulnerabilities, <strong>CVE-2026-109618</strong> and <strong>CVE-2026-109619</strong> (widely referred to as "PHP2Shell"), <strong>do not affect</strong> the Rapid platform or the services we provide.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Status box --></mj-raw>
+        <mj-section background-color="#ffffff" padding="8px 40px">
+            <mj-column background-color="#eaf6ee" border-left="4px solid #1b6e3a" padding="18px 0" css-class="status-box">
+                <mj-text mj-class="status-label">STATUS: NOT AFFECTED</mj-text>
+                <mj-text mj-class="status-text">No action is required from your side. Our services continue to operate as normal.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" padding="8px 8px 32px">
+            <mj-column>
+                <mj-text mj-class="paddit" padding="12px 32px 0"><strong>What we have done:</strong></mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
+                    <li>Completed our checks across the Rapid platform and our hosting servers.</li>
+                    <li>Confirmed that none of our hosting servers are affected.</li>
+                    <li>We will continue to monitor official guidance and will contact you directly should anything change.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">We remain committed to maintaining the security and reliability of the Rapid platform. If you have any questions, simply reply to this email or <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">get in touch</a>.</mj-text>
+
+                <mj-spacer height="8px" />
+                <mj-text mj-class="paddit">Kind regards,</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 0">The Rapid Team</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Footer --></mj-raw>
+        <mj-section background-color="#ffffff" padding="12px 16px 12px">
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-divider padding="20px 32px 8px" />
+                <mj-text mj-class="footer-text"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Bottom accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
