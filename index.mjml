@@ -1,13 +1,14 @@
 <mjml lang="en" dir="ltr">
     <mj-head>
-        <mj-title>Security Update: PHP Vulnerabilities</mj-title>
-        <mj-preview>The recently reported PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) do not affect the Rapid platform. No action is required.</mj-preview>
+        <mj-title>Security Update: Java4Shell Vulnerability (CVE-2026-114938)</mj-title>
+        <mj-preview>We are aware of the Java4Shell vulnerability (CVE-2026-114938). The Rapid platform runs on Java 8, which does not include the affected component.</mj-preview>
         <mj-breakpoint width="600px" />
         <mj-attributes>
             <mj-all font-family="Ubuntu, Arial, sans-serif" />
             <mj-text padding="0" color="#3a3a4a" font-size="16px" line-height="1.65" />
             <mj-section padding="0" />
             <mj-class name="heading" padding="20px 32px 8px" color="#220a99" font-size="26px" font-weight="700" line-height="1.25" letter-spacing="-0.01em" />
+            <mj-class name="subheading" padding="20px 32px 0" color="#220a99" font-size="19px" font-weight="700" line-height="1.3" />
             <mj-class name="paddit" padding="8px 32px" color="#3a3a4a" font-size="16px" font-weight="400" line-height="1.65" />
             <mj-class name="lead" padding="8px 32px" color="#2a2a3a" font-size="17px" font-weight="400" line-height="1.65" />
             <mj-class name="header-title" padding="16px 32px 4px" color="#220a99" font-size="28px" font-weight="700" line-height="1.2" letter-spacing="-0.015em" />
@@ -52,39 +53,46 @@
         <mj-raw><!-- Header --></mj-raw>
         <mj-section background-color="#dfd9fd" padding="28px 8px">
             <mj-column vertical-align="middle" width="60%">
-                <mj-text mj-class="header-title">Security Update: PHP Vulnerabilities</mj-text>
-                <mj-text mj-class="header-issue">SECURITY NOTICE  ·  OCTOBER 2026</mj-text>
+                <mj-text mj-class="header-title">Security Update: Java4Shell Vulnerability</mj-text>
+                <mj-text mj-class="header-issue">SECURITY NOTICE  ·  NOVEMBER 2026</mj-text>
             </mj-column>
             <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
                 <mj-image align="right" width="200px" padding="0 24px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
             </mj-column>
         </mj-section>
 
-        <mj-raw><!-- Main content --></mj-raw>
+        <mj-raw><!-- Introduction --></mj-raw>
         <mj-section background-color="#ffffff" padding="36px 8px 8px">
             <mj-column>
                 <mj-text mj-class="lead" padding="0 32px 12px">Dear {firstName},</mj-text>
-                <mj-text mj-class="paddit">We would like to reassure you that the recently reported PHP vulnerabilities, <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w" title="CVE-2026-109618 – PHP security advisory" target="_blank"><strong>CVE-2026-109618</strong></a> and <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp" title="CVE-2026-109619 – PHP security advisory" target="_blank"><strong>CVE-2026-109619</strong></a> (widely referred to as "PHP2Shell"), <strong>do not affect</strong> the Rapid platform or the services we provide.</mj-text>
+                <mj-text mj-class="paddit">You may have seen recent news reports about a critical security vulnerability in Java, known as "Java4Shell" (<a href="https://openjdk.org/groups/vulnerability/advisories/2026-11-17" title="CVE-2026-114938 – OpenJDK vulnerability advisory" target="_blank"><strong>CVE-2026-114938</strong></a>). We wanted to reach out to let you know we are aware of this and have been monitoring the situation closely.</mj-text>
             </mj-column>
         </mj-section>
 
         <mj-raw><!-- Status box --></mj-raw>
         <mj-section background-color="#ffffff" padding="8px 40px">
             <mj-column background-color="#eaf6ee" border-left="4px solid #1b6e3a" padding="18px 0" css-class="status-box">
-                <mj-text mj-class="status-label">STATUS: NOT AFFECTED</mj-text>
-                <mj-text mj-class="status-text">No action is required from your side. Our services continue to operate as normal.</mj-text>
+                <mj-text mj-class="status-label">STATUS: NO CURRENT EVIDENCE OF EXPOSURE</mj-text>
+                <mj-text mj-class="status-text">The Rapid platform runs on Java 8 (Eclipse Temurin), which does not include the affected component.</mj-text>
             </mj-column>
         </mj-section>
 
+        <mj-raw><!-- Details --></mj-raw>
         <mj-section background-color="#ffffff" padding="8px 8px 32px">
             <mj-column>
-                <mj-text mj-class="paddit" padding="12px 32px 0"><strong>What we have done:</strong></mj-text>
+                <mj-text mj-class="subheading">What is it?</mj-text>
+                <mj-text mj-class="paddit">Java4Shell is a vulnerability in certain versions of the Java programming language that could, under specific conditions, allow an attacker to run unauthorised code remotely. It was disclosed on 17 November 2026 and has been rated as <strong>Critical</strong>.</mj-text>
+
+                <mj-text mj-class="subheading">Are you affected?</mj-text>
+                <mj-text mj-class="paddit">Based on our investigation, this vulnerability affects Java versions 17 and above that include a specific processor-level optimisation. Our platform runs on <strong>Java 8 (Eclipse Temurin)</strong>, which does not include the affected component. We therefore have no current evidence that our systems are exposed to this vulnerability.</mj-text>
+
+                <mj-text mj-class="subheading">What are we doing?</mj-text>
                 <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
-                    <li>Completed our checks across the Rapid platform and our hosting servers.</li>
-                    <li>Confirmed that none of our hosting servers are affected.</li>
-                    <li>We will continue to monitor <a href="https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php" title="NCSC: Critical security issue affecting PHP" target="_blank">official guidance from the NCSC</a> and will contact you directly should anything change.</li>
+                    <li>Continuing to monitor guidance from the OpenJDK and Eclipse Adoptium security teams, as well as advisories from CISA and the NCSC.</li>
+                    <li>Applying any patches as soon as they become available. Should a patch be released for our version of Java, we will ensure it is deployed immediately.</li>
+                    <li>As of today, there is no confirmed exploitation of this vulnerability in the wild.</li>
                 </ul></mj-text>
-                <mj-text mj-class="paddit">We remain committed to maintaining the security and reliability of the Rapid platform. If you have any questions, simply reply to this email or <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">get in touch</a>.</mj-text>
+                <mj-text mj-class="paddit">We will keep you updated if the situation changes. In the meantime, if you have any questions or concerns, please don't hesitate to <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">get in touch</a>.</mj-text>
 
                 <mj-spacer height="8px" />
                 <mj-text mj-class="paddit">Kind regards,</mj-text>
