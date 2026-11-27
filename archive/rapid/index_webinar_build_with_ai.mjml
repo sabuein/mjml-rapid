@@ -1,0 +1,129 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>You are invited: Build with AI on the Rapid Platform, Wednesday 9 December at 11am</mj-title>
+        <mj-preview>An exclusive webinar for Rapid customers. See how Build with AI takes you from a plain English prompt to a working app, with full control and security by design.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-all font-family="Ubuntu, Arial, sans-serif" />
+            <mj-text padding="0" color="#3a3a4a" font-size="16px" line-height="1.65" />
+            <mj-section padding="0" />
+            <mj-class name="heading" padding="20px 32px 8px" color="#220a99" font-size="26px" font-weight="700" line-height="1.25" letter-spacing="-0.01em" />
+            <mj-class name="subheading" padding="16px 32px 4px" color="#220a99" font-size="19px" font-weight="700" line-height="1.3" letter-spacing="-0.005em" />
+            <mj-class name="paddit" padding="8px 32px" color="#3a3a4a" font-size="16px" font-weight="400" line-height="1.65" />
+            <mj-class name="lead" padding="8px 32px" color="#2a2a3a" font-size="17px" font-weight="400" line-height="1.65" />
+            <mj-class name="header-title" padding="16px 32px 4px" color="#220a99" font-size="28px" font-weight="700" line-height="1.2" letter-spacing="-0.015em" />
+            <mj-class name="header-issue" padding="0 32px 16px" color="#5a4fb0" font-size="15px" font-weight="600" letter-spacing="0.08em" />
+            <mj-class name="event-label" padding="18px 32px 2px" color="#5a4fb0" font-size="13px" font-weight="700" letter-spacing="0.09em" />
+            <mj-class name="event-name" padding="0 32px 4px" color="#220a99" font-size="18px" font-weight="700" line-height="1.35" />
+            <mj-class name="event-meta" padding="0 32px 8px" color="#3a3a4a" font-size="15px" font-weight="500" line-height="1.6" />
+            <mj-class name="cta-heading" padding="8px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.3" align="center" letter-spacing="-0.01em" />
+            <mj-class name="cta-text" padding="8px 32px 20px" color="#3a3a4a" font-size="16px" line-height="1.65" align="center" />
+            <mj-class name="footer-text" padding="8px 25px" color="#7a7a8a" font-size="13px" line-height="1.5" align="center" />
+            <mj-button background-color="#220a99" color="#ffffff" font-size="16px" font-weight="600" inner-padding="14px 36px" border-radius="8px" letter-spacing="0.02em" />
+            <mj-divider border-color="#e6e1f7" border-width="1px" padding="20px 32px 4px" />
+            <mj-social icon-size="28px" mode="horizontal" align="center" inner-padding="0 8px" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+            a { color: #220a99; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.2s ease; }
+            a:hover { color: #5a4fb0; }
+            .article-list { margin: 4px 0 0; padding-left: 22px; }
+            .article-list li { margin-bottom: 10px; line-height: 1.65; padding-left: 4px; }
+            .article-list li::marker { color: #5a4fb0; }
+            strong { color: #220a99; font-weight: 700; }
+            @media only screen and (max-width: 600px) {
+                .mobile-pad { padding: 16px 8px !important; }
+                .mobile-center { text-align: center !important; }
+                .mobile-center img { margin: 0 auto !important; }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px" background-color="#f5f3fc">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+
+        <mj-raw><!-- Top accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Header --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="28px 8px">
+            <mj-column vertical-align="middle" width="60%">
+                <mj-text mj-class="header-title">You are invited: Build with AI on the Rapid Platform</mj-text>
+                <mj-text mj-class="header-issue">CUSTOMER WEBINAR  ·  DECEMBER 2026</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
+                <mj-image align="right" width="200px" padding="0 24px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Introduction and event details --></mj-raw>
+        <mj-section background-color="#ffffff" padding="36px 8px 8px">
+            <mj-column>
+                <mj-text mj-class="lead" padding="0 32px 12px">Dear {firstName},</mj-text>
+                <mj-text mj-class="paddit">We would like to invite you to an exclusive online webinar for Rapid customers, where we will showcase the latest addition to the <a href="https://rapid-is.co.uk/" title="Rapid Information Systems" target="_blank">Rapid Platform</a>: <strong>Build with AI</strong>, built-in AI that helps you create Rapid applications from a plain English description.</mj-text>
+
+                <mj-text mj-class="event-label">EXCLUSIVE TO RAPID CUSTOMERS</mj-text>
+                <mj-text mj-class="event-name">Wednesday 9 December 2026</mj-text>
+                <mj-text mj-class="event-meta">11:00am to 11:45am<br />Online via Microsoft Teams</mj-text>
+                <mj-button align="left" padding="4px 32px 8px" href="https://events.teams.microsoft.com/event/7fa15c98-5512-480e-b68e-84c2ead45154@cb480f9d-c52c-4096-a621-442810be7029" title="Register for the Rapid Build with AI webinar, Wednesday 9 December">Register now</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- What you will see --></mj-raw>
+        <mj-section background-color="#ffffff" padding="8px 8px 32px">
+            <mj-column>
+                <mj-text mj-class="subheading">What you will see</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 8px"><ul class="article-list">
+                    <li><strong>From prompt to app in minutes.</strong> Describe what you need in plain English and watch Rapid generate a working application.</li>
+                    <li><strong>Full control in the Rapid designer.</strong> Refine and extend AI-generated apps using the familiar drag-and-drop designer, so your team stays in charge of the final result.</li>
+                    <li><strong>Security by design.</strong> All AI activity runs inside the Rapid wrapper, keeping your data within the same governed environment you already trust.</li>
+                    <li><strong>Your choice of AI model.</strong> Use leading commercial models, or open-source models with local inference if you need tighter control over where data is processed.</li>
+                    <li><strong>Live Q&amp;A.</strong> Bring your questions and ideas for how AI could help your services.</li>
+                </ul></mj-text>
+                <mj-text mj-class="paddit">Whether you use Rapid for housing, case management, dashboards or bespoke business applications, this session will show how AI can help you deliver new solutions faster, without compromising on governance or security.</mj-text>
+                <mj-text mj-class="paddit">Places are limited, so please <a href="https://events.teams.microsoft.com/event/7fa15c98-5512-480e-b68e-84c2ead45154@cb480f9d-c52c-4096-a621-442810be7029" title="Register for the Rapid Build with AI webinar" target="_blank">register early</a>. If you cannot make the date, register anyway and we will send you the recording.</mj-text>
+                <mj-spacer height="8px" />
+                <mj-text mj-class="paddit">We look forward to seeing you there.</mj-text>
+                <mj-text mj-class="paddit">If you have any questions before the webinar, please <a href="https://rapid-is.co.uk/contact/" title="Contact Rapid" target="_blank">get in touch</a>. We look forward to seeing you there.</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 0">The Rapid Team</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- CTA section --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="44px 16px">
+            <mj-column>
+                <mj-text mj-class="cta-heading">Places are limited</mj-text>
+                <mj-text mj-class="cta-text">Wednesday 9 December, 11:00am to 11:45am on Microsoft Teams. Cannot make it? Register anyway and we will send you the recording.</mj-text>
+                <mj-button href="https://events.teams.microsoft.com/event/7fa15c98-5512-480e-b68e-84c2ead45154@cb480f9d-c52c-4096-a621-442810be7029" title="Register for the Rapid Build with AI webinar, Wednesday 9 December">Register now</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Footer --></mj-raw>
+        <mj-section background-color="#ffffff" padding="32px 16px 12px">
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Web">Web</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-divider padding="20px 32px 8px" />
+                <mj-text mj-class="footer-text"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Bottom accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
