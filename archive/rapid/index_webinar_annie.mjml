@@ -1,0 +1,162 @@
+<mjml lang="en" dir="ltr">
+    <mj-head>
+        <mj-title>You are invited: Introducing ANNIE, Wednesday 9 December at 2pm</mj-title>
+        <mj-preview>Join us on Wednesday 9 December at 2:00pm for a 45-minute live introduction to ANNIE, our new internal audit management application.</mj-preview>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-all font-family="Ubuntu, Arial, sans-serif" />
+            <mj-text padding="0" color="#3a3a4a" font-size="16px" line-height="1.65" />
+            <mj-section padding="0" />
+            <mj-class name="heading" padding="20px 32px 8px" color="#220a99" font-size="26px" font-weight="700" line-height="1.25" letter-spacing="-0.01em" />
+            <mj-class name="subheading" padding="16px 32px 4px" color="#220a99" font-size="19px" font-weight="700" line-height="1.3" letter-spacing="-0.005em" />
+            <mj-class name="paddit" padding="8px 32px" color="#3a3a4a" font-size="16px" font-weight="400" line-height="1.65" />
+            <mj-class name="lead" padding="8px 32px" color="#2a2a3a" font-size="17px" font-weight="400" line-height="1.65" />
+            <mj-class name="header-title" padding="16px 32px 4px" color="#220a99" font-size="28px" font-weight="700" line-height="1.2" letter-spacing="-0.015em" />
+            <mj-class name="header-issue" padding="0 32px 16px" color="#5a4fb0" font-size="15px" font-weight="600" letter-spacing="0.08em" />
+            <mj-class name="event-label" padding="18px 32px 2px" color="#5a4fb0" font-size="13px" font-weight="700" letter-spacing="0.09em" />
+            <mj-class name="event-name" padding="0 32px 4px" color="#220a99" font-size="18px" font-weight="700" line-height="1.35" />
+            <mj-class name="event-meta" padding="0 32px 8px" color="#3a3a4a" font-size="15px" font-weight="500" line-height="1.6" />
+            <mj-class name="cta-heading" padding="8px 25px" color="#220a99" font-size="24px" font-weight="700" line-height="1.3" align="center" letter-spacing="-0.01em" />
+            <mj-class name="cta-text" padding="8px 32px 20px" color="#3a3a4a" font-size="16px" line-height="1.65" align="center" />
+            <mj-class name="footer-text" padding="8px 25px" color="#7a7a8a" font-size="13px" line-height="1.5" align="center" />
+            <mj-button background-color="#220a99" color="#ffffff" font-size="16px" font-weight="600" inner-padding="14px 36px" border-radius="8px" letter-spacing="0.02em" />
+            <mj-table padding="4px 32px 8px" color="#3a3a4a" font-size="16px" line-height="1.6" />
+            <mj-divider border-color="#e6e1f7" border-width="1px" padding="20px 32px 4px" />
+            <mj-social icon-size="28px" mode="horizontal" align="center" inner-padding="0 8px" />
+        </mj-attributes>
+        <mj-html-attributes>
+            <mj-selector path=".flexy table">
+                <mj-html-attribute name="data-id">42</mj-html-attribute>
+            </mj-selector>
+        </mj-html-attributes>
+        <mj-style>
+            .flexy table { margin: 0; }
+            a { color: #220a99; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color 0.2s ease; }
+            a:hover { color: #5a4fb0; }
+            strong { color: #220a99; font-weight: 700; }
+            .agenda td { padding: 12px 0; border-bottom: 1px solid #e6e1f7; vertical-align: top; }
+            .agenda td.agenda-time { width: 76px; padding-right: 16px; color: #5a4fb0; font-weight: 700; white-space: nowrap; }
+            .agenda .agenda-note { display: block; margin-top: 2px; color: #5a5a6a; font-size: 15px; }
+            .agenda tr:last-child td { border-bottom: none; }
+            @media only screen and (max-width: 600px) {
+                .mobile-pad { padding: 16px 8px !important; }
+                .mobile-center { text-align: center !important; }
+                .mobile-center img { margin: 0 auto !important; }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="1080px" background-color="#f5f3fc">
+        <mj-include path="assets/styles/screen.css" type="css" />
+        <mj-raw><!-- Message body --></mj-raw>
+
+        <mj-raw><!-- Top accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Header --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="28px 8px">
+            <mj-column vertical-align="middle" width="60%">
+                <mj-text mj-class="header-title">You are invited: Introducing ANNIE</mj-text>
+                <mj-text mj-class="header-issue">WEBINAR INVITATION  ·  DECEMBER 2026</mj-text>
+            </mj-column>
+            <mj-column vertical-align="middle" width="40%" css-class="mobile-center">
+                <mj-image align="right" width="200px" padding="0 24px" src="assets/images/rapid-is-logo.png" alt="Rapid Information Systems Logo" title="Rapid Information Systems" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Introduction and event details --></mj-raw>
+        <mj-section background-color="#ffffff" padding="36px 8px 8px">
+            <mj-column>
+                <mj-text mj-class="lead" padding="0 32px 12px">Dear {firstName},</mj-text>
+                <mj-text mj-class="paddit">Join us on <strong>Wednesday 9 December at 2:00pm</strong> for a 45-minute live introduction to <strong>ANNIE</strong>, our new internal audit management application built for local authorities, housing associations and the wider public sector.</mj-text>
+
+                <mj-text mj-class="event-label">LIVE WEBINAR</mj-text>
+                <mj-text mj-class="event-name">Wednesday 9 December 2026</mj-text>
+                <mj-text mj-class="event-meta">2:00pm to 2:45pm<br />Microsoft Teams</mj-text>
+                <mj-button align="left" padding="4px 32px 8px" href="https://events.teams.microsoft.com/event/b6ee3de5-a4b4-49eb-a1f8-fb07b0bc03a3@cb480f9d-c52c-4096-a621-442810be7029" title="Register for Introducing ANNIE, Wednesday 9 December">Register and join</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Why ANNIE --></mj-raw>
+        <mj-section background-color="#ffffff" padding="0 8px">
+            <mj-column>
+                <mj-text mj-class="subheading">Why ANNIE?</mj-text>
+                <mj-text mj-class="paddit">Internal audit teams are being asked to do more with less: conform with the Global Internal Audit Standards (GIAS), give audit committees clearer assurance, and keep up with follow-up on recommendations, often using spreadsheets and Word documents. ANNIE brings the whole audit cycle into one secure system, from the annual plan and individual engagements through to findings, agreed actions and committee reporting.</mj-text>
+                <mj-text mj-class="paddit">For <a href="https://gracegs.com/" title="Grace Governance Solutions" target="_blank"><strong>Grace</strong></a> users, ANNIE connects directly to your existing risk registers. It draws the supporting risks and controls from Grace, so you can see which controls have been audited, which have not, and where your assurance gaps are. If you use the <a href="https://rapid-is.co.uk/" title="Rapid Information Systems" target="_blank"><strong>Rapid Platform</strong></a>, this is a chance to see the latest addition to the family of products from the team you already know.</mj-text>
+
+                <mj-text mj-class="subheading">Who should attend?</mj-text>
+                <mj-text mj-class="paddit">The session will include a live demonstration and plenty of time for questions. It is aimed at Heads of Internal Audit, auditors, risk managers and anyone involved in preparing assurance reports for audit committees. Please feel free to forward this invitation to colleagues.</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Agenda --></mj-raw>
+        <mj-section background-color="#ffffff" padding="0 8px 32px">
+            <mj-column>
+                <mj-text mj-class="subheading">Agenda (45 minutes)</mj-text>
+                <mj-table css-class="agenda">
+                    <tr>
+                        <td class="agenda-time">2:00pm</td>
+                        <td><strong>Welcome and introductions</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">2:05pm</td>
+                        <td><strong>Why internal audit needs a dedicated tool</strong> <span class="agenda-note">The pressures teams face: GIAS conformance, audit committee expectations, stretched resources and local government reorganisation, plus the common pain points with spreadsheet-based audit management.</span></td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">2:10pm</td>
+                        <td><strong>Live demo of ANNIE</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">2:35pm</td>
+                        <td><strong>Q&amp;A</strong> <span class="agenda-note">Open questions from attendees, using Teams chat and hands up.</span></td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">2:42pm</td>
+                        <td><strong>Next steps</strong> <span class="agenda-note">ANNIE and ANNIE+ options, how to book a tailored demo with your own data, and any offer for existing customers.</span></td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">2:45pm</td>
+                        <td><strong>Close</strong></td>
+                    </tr>
+                </mj-table>
+
+                <mj-spacer height="8px" />
+                <mj-text mj-class="paddit">We look forward to seeing you there.</mj-text>
+                <mj-text mj-class="paddit">Kind regards,</mj-text>
+                <mj-text mj-class="paddit" padding="4px 32px 0">The Rapid Team</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- CTA section --></mj-raw>
+        <mj-section background-color="#dfd9fd" padding="44px 16px">
+            <mj-column>
+                <mj-text mj-class="cta-heading">Introducing ANNIE</mj-text>
+                <mj-text mj-class="cta-text">Wednesday 9 December, 2:00pm to 2:45pm on Microsoft Teams.</mj-text>
+                <mj-button href="https://events.teams.microsoft.com/event/b6ee3de5-a4b4-49eb-a1f8-fb07b0bc03a3@cb480f9d-c52c-4096-a621-442810be7029" title="Register for Introducing ANNIE, Wednesday 9 December">Register and join</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Footer --></mj-raw>
+        <mj-section background-color="#ffffff" padding="32px 16px 12px">
+            <mj-column>
+                <mj-social css-class="flexy row gap-1">
+                    <mj-social-element name="web-noshare" href="https://rapid-is.co.uk/" title="Rapid Information Systems">Rapid</mj-social-element>
+                    <mj-social-element name="web-noshare" href="https://gracegs.com/" title="Grace Governance Solutions">Grace</mj-social-element>
+                    <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/rapid-information-systems/" title="LinkedIn">LinkedIn</mj-social-element>
+                </mj-social>
+                <mj-divider padding="20px 32px 8px" />
+                <mj-text mj-class="footer-text"><a href="{unsubscribe_link}">Unsubscribe</a></mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw><!-- Bottom accent bar --></mj-raw>
+        <mj-section background-color="#220a99" padding="0">
+            <mj-column>
+                <mj-spacer height="4px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
